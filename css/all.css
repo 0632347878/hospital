@@ -72,7 +72,9 @@ body {
 .card_w,
 .tabs_w,
 .map_w,
-.birth_count_w {
+.birth_count_w,
+.hospital_photo_w,
+.reviews_w {
   border: 1px solid #eaeaea;
   background-color: #fff;
 }
@@ -459,7 +461,7 @@ label[for="my_check2"] {
   display: block;
 }
 .map_w {
-  margin-top: 25px;
+  margin: 25px 0;
   padding: 25px 20px;
 }
 .map_w .title3 {
@@ -469,11 +471,17 @@ label[for="my_check2"] {
   min-height: 310px;
 }
 .map_w .title3,
-.has_birth_w .title3 {
+.has_birth_w .title3,
+.was_birth_w .title3,
+.hospital_photo_w .title3,
+.reviews_header .title3 {
   text-align: center;
 }
 .map_w .title3:after,
-.has_birth_w .title3:after {
+.has_birth_w .title3:after,
+.was_birth_w .title3:after,
+.hospital_photo_w .title3:after,
+.reviews_header .title3:after {
   content: "";
   width: 42px;
   height: 2px;
@@ -482,7 +490,8 @@ label[for="my_check2"] {
   margin: 0 auto;
   margin-top: 6px;
 }
-.has_birth {
+.has_birth,
+.was_birth {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -492,6 +501,9 @@ label[for="my_check2"] {
   justify-content: space-between;
   margin-top: 25px;
 }
+.was_birth_w .show_more {
+  margin-bottom: 0;
+}
 .birth_count_w {
   padding: 24px 20px;
   padding-right: 0;
@@ -499,10 +511,10 @@ label[for="my_check2"] {
 .birth_count_item {
   flex-basis: 120px;
 }
-.birth_count_item .uer_info p {
+.birth_count_item .user_info p {
   margin-bottom: 14px;
 }
-.birth_count_item .uer_info p:last-child {
+.birth_count_item .user_info p:last-child {
   margin-bottom: 0;
 }
 .birth_count_img {
@@ -544,14 +556,316 @@ label[for="my_check2"] {
 .chidren_count .girl_ago:before {
   background-image: url(../img/girl-face.png);
 }
-.showmore_has_birth {
-  color: #068aa1;
-  margin: 0 auto;
+.hospital_photo_w {
+  padding: 20px;
+  margin: 20px 0;
+}
+.hospital_photo_w .show_more {
+  padding: 15px 0 5px;
+  margin: 0;
+  text-align: end;
+}
+.hospital_photo_w .show_more .show_more_action {
+  color: #0bb1ce;
+}
+.hospital_photo_outer {
+  margin-top: 15px;
+}
+.hospital_photo_outer .discription_text {
+  text-align: center;
+  padding-top: 15px;
+}
+.reviews_w {
+  padding: 20px;
+}
+.reviews_w .title3 {
   display: inline-block;
+}
+.reviews_w > :last-child {
+  margin-bottom: 50px;
+}
+.sidebar_discussion_text {
+  font-size: 17px;
+}
+.reviews_header {
+  width: 55%;
+  margin-left: auto;
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.raiting_filter_w {
+  width: 60%;
+  margin-left: auto;
+}
+.raiting_filter {
+  font-family: 'Roboto-light', sans-serif !important;
+}
+.current {
+  color: #4a5456;
+}
+.nice-select {
+  min-width: 220px;
+  -webkit-tap-highlight-color: transparent;
+  background-color: #fff1f4;
+  border: solid 1px #ffaebe;
+  clear: both;
+  cursor: pointer;
+  display: block;
+  font-family: inherit;
+  font-weight: normal;
+  height: 42px;
+  line-height: 40px;
+  outline: none;
+  padding-left: 18px;
+  padding-right: 30px;
+  position: relative;
+  text-align: left !important;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: auto;
+}
+.nice-select:hover {
+  border-color: #dbdbdb;
+}
+.nice-select:active,
+.nice-select.open,
+.nice-select:focus {
+  border-color: #999;
+}
+.nice-select:after {
+  content: "▶";
+  color: #ff5779;
+  display: block;
+  font-size: 20px;
+  pointer-events: none;
+  position: absolute;
+  right: 12px;
+  transform: translateY(-50%);
+  top: 50%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.nice-select.open:after {
+  top: 0;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.nice-select.open .list {
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transform: scale(1) translateY(0);
+  -ms-transform: scale(1) translateY(0);
+  transform: scale(1) translateY(0);
+}
+.nice-select.disabled {
+  border-color: #ededed;
+  color: #999;
+  pointer-events: none;
+}
+.nice-select.disabled:after {
+  border-color: #cccccc;
+}
+.nice-select.wide {
+  width: 100%;
+}
+.nice-select.wide .list {
+  left: 0 !important;
+  right: 0 !important;
+}
+.nice-select.right {
+  float: right;
+}
+.nice-select.right .list {
+  left: auto;
+  right: 0;
+}
+.nice-select.small {
+  font-size: 12px;
+  height: 36px;
+  line-height: 34px;
+}
+.nice-select.small:after {
+  height: 4px;
+  width: 4px;
+}
+.nice-select.small .option {
+  line-height: 34px;
+  min-height: 34px;
+}
+.nice-select .list {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px rgba(68, 68, 68, 0.11);
+  box-sizing: border-box;
+  margin-top: 4px;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  -webkit-transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transform: scale(0.75) translateY(-21px);
+  -ms-transform: scale(0.75) translateY(-21px);
+  transform: scale(0.75) translateY(-21px);
+  -webkit-transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+  transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+  z-index: 9;
+}
+.nice-select .list:hover .option:not(:hover) {
+  background-color: transparent !important;
+}
+.nice-select .option {
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 40px;
+  list-style: none;
+  min-height: 40px;
+  outline: none;
+  padding-left: 18px;
+  padding-right: 29px;
+  text-align: left;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.nice-select .option:hover,
+.nice-select .option.focus,
+.nice-select .option.selected.focus {
+  background-color: #fff1f4;
+}
+.nice-select .option.selected {
+  font-weight: bold;
+}
+.nice-select .option.disabled {
+  background-color: transparent;
+  color: #999;
+  cursor: default;
+}
+.no-csspointerevents .nice-select .list {
+  display: none;
+}
+.no-csspointerevents .nice-select.open .list {
+  display: block;
+}
+.review_item_user {
+  flex-basis: auto;
+}
+.review_item_user > .block_cell {
+  vertical-align: top;
+}
+.review_date {
+  color: #949c9f;
+}
+.block_table {
+  display: table;
+}
+.block_cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.block_cell + .user_info {
+  margin-left: 25px;
+  min-width: 80px;
+}
+.left_inner_thumb {
+  margin-top: -12px;
+  margin-right: 25px;
+}
+.left_outer {
+  margin-bottom: 20px;
+}
+.review_text_title {
+  color: #8cab28;
+  padding: 10px 0;
+}
+.review_text {
+  width: 90%;
+}
+.col-md-8 + .card_raiting {
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+.col-md-8 + .card_raiting .unwrap_rewiev_w {
+  position: absolute;
+  bottom: 0;
+}
+.review_item {
+  position: relative;
+  margin-bottom: 70px;
+}
+@media all and (max-width: 1199px) {
+  .card_form {
+    display: inline-table;
+    padding-left: 40px;
+  }
+  .card_raiting + .card_form button {
+    margin-top: 10px;
+  }
+  .birth_count_item .user_info p:last-child {
+    padding-bottom: 14px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .card_statistic + .card_raiting {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .birth_count_w {
     padding-right: 20px;
+  }
+}
+@media all and (max-width: 992px) {
+  .reviews_header {
+    width: 100%;
+  }
+  .card_raiting .raiting_w {
+    padding-left: 20px;
+  }
+  .hospital_reiting {
+    text-align: center;
+    margin: 15px 0 7px;
+  }
+  .col-md-8 + .card_raiting {
+    position: static;
+  }
+  .col-md-8 + .card_raiting .unwrap_rewiev_w {
+    position: static;
+  }
+  .unwrap_rewiev_w {
+    padding-left: 20px;
+  }
+  .has_birth,
+  .was_birth {
+    justify-content: space-around;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .sidebar__object_page {
+    font-size: 0;
+  }
+  .object_sidebar_link {
+    width: 50%;
+    padding: 10px;
   }
 }
 @media all and (max-width: 768px) {
@@ -570,5 +884,17 @@ label[for="my_check2"] {
   }
   .search_w {
     width: 90%;
+  }
+  .reviews_header {
+    flex-direction: column;
+  }
+  .raiting_filter_w {
+    margin-right: auto;
+    width: auto;
+  }
+  .object_sidebar_link {
+    margin-bottom: 25px;
+    display: block;
+    padding: 10px;
   }
 }

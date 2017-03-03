@@ -186,17 +186,17 @@
         <div class="map_w">
           <h2 class="title3">Роддом на карте Москва</h2>
           <div id="map">
-           <!--  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2250.497660851436!2d37.6385266162816!3d55.662945680529475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab369f02d2a5b%3A0x57ec369b5cf0d87e!2z0JrQvtC70L7QvNC10L3RgdC60LjQuSDQv9GALdC0LCA0LCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjywgMTE1NDQ2!5e0!3m2!1sru!2sua!4v1488470176637" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+            <!--  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2250.497660851436!2d37.6385266162816!3d55.662945680529475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab369f02d2a5b%3A0x57ec369b5cf0d87e!2z0JrQvtC70L7QvNC10L3RgdC60LjQuSDQv9GALdC0LCA0LCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjywgMTE1NDQ2!5e0!3m2!1sru!2sua!4v1488470176637" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe> -->
           </div>
         </div>
         <!-- begin birth_count_w -->
         <div class="birth_count_w">
           <div class="has_birth_w">
-            <h2 class="title3">207 мам родило здесь</h2>
-              <div class="has_birth">
-              <div class="birth_count_item ">
+            <h2 class="title3"><span class="has_birth_count">207</span> мам родило здесь</h2>
+            <div class="has_birth">
+              <div class="birth_count_item">
                 <img src="img/user_thumb1.png" alt="" class="birth_count_img">
-                <div class="uer_info">
+                <div class="user_info">
                   <p class="user_name">Елена К.</p>
                   <p class="clinic_city">Москва</p>
                   <p class="birth_time">15</p>
@@ -204,7 +204,7 @@
               </div>
               <div class="birth_count_item">
                 <img src="img/user_thumb2.png" alt="" class="birth_count_img">
-                <div class="uer_info">
+                <div class="user_info">
                   <p class="user_name">Наталья И.</p>
                   <p class="clinic_city">Москва</p>
                   <p class="birth_time">23</p>
@@ -212,7 +212,7 @@
               </div>
               <div class="birth_count_item">
                 <img src="img/user_thumb3.png" alt="" class="birth_count_img">
-                <div class="uer_info">
+                <div class="user_info">
                   <p class="user_name">Ольга Ю.</p>
                   <p class="clinic_city">Москва</p>
                   <div class="chidren_count">
@@ -223,7 +223,7 @@
               </div>
               <div class="birth_count_item">
                 <img src="img/user_thumb1.png" alt="" class="birth_count_img">
-                <div class="uer_info">
+                <div class="user_info">
                   <p class="user_name">Елена К.</p>
                   <p class="clinic_city">Москва</p>
                   <p class="birth_time">15</p>
@@ -231,18 +231,582 @@
               </div>
               <div class="birth_count_item">
                 <img src="img/user_thumb2.png" alt="" class="birth_count_img">
-                <div class="uer_info">
+                <div class="user_info">
                   <p class="user_name">Наталья И.</p>
                   <p class="clinic_city">Москва</p>
                   <p class="birth_time">23</p>
                 </div>
+              </div>
             </div>
+            <div class="show_more">
+              <a href="#">Показать всех</a>
             </div>
-            <a href="" class="showmore_has_birth">Показать всех</a>
+          </div>
+          <div class="was_birth_w">
+            <h2 class="title3"><span id="was_birth_count">43</span> планируют рожать</h2>
+            <div class="was_birth">
+              <div class="birth_count_item">
+                <img src="img/user_thumb1.png" alt="" class="birth_count_img">
+                <div class="user_info">
+                  <p class="user_name">Елена К.</p>
+                  <p class="clinic_city">Москва</p>
+                  <p class="birth_time">15</p>
+                </div>
+              </div>
+              <div class="birth_count_item">
+                <img src="img/user_thumb2.png" alt="" class="birth_count_img">
+                <div class="user_info">
+                  <p class="user_name">Наталья И.</p>
+                  <p class="clinic_city">Москва</p>
+                  <p class="birth_time">23</p>
+                </div>
+              </div>
+              <div class="birth_count_item">
+                <img src="img/user_thumb3.png" alt="" class="birth_count_img">
+                <div class="user_info">
+                  <p class="user_name">Ольга Ю.</p>
+                  <p class="clinic_city">Москва</p>
+                  <div class="chidren_count">
+                    <span class="boy_ago">3 г</span>
+                    <span class="girl_ago">1,5 г</span>
+                  </div>
+                </div>
+              </div>
+              <div class="birth_count_item">
+                <img src="img/user_thumb1.png" alt="" class="birth_count_img">
+                <div class="user_info">
+                  <p class="user_name">Елена К.</p>
+                  <p class="clinic_city">Москва</p>
+                  <p class="birth_time">15</p>
+                </div>
+              </div>
+              <div class="birth_count_item">
+                <img src="img/user_thumb2.png" alt="" class="birth_count_img">
+                <div class="user_info">
+                  <p class="user_name">Наталья И.</p>
+                  <p class="clinic_city">Москва</p>
+                  <p class="birth_time">23</p>
+                </div>
+              </div>
+            </div>
+            <div class="show_more">
+              <a href="#">Показать всех</a>
+            </div>
           </div>
         </div>
+        <div class="hospital_photo_w">
+          <h2 class="title3">Фото роддома</h2>
+          <div class="row hospital_photo_outer">
+            <div class="col-md-3 col-xs-6">
+              <img src="img/gallery1.jpg" alt="" class="hospital_photo">
+              <p class="discription_text">Приемник</p>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              <img src="img/gallery2.jpg" alt="" class="hospital_photo">
+              <p class="discription_text">Палата №3</p>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              <img src="img/gallery3.jpg" alt="" class="hospital_photo">
+              <p class="discription_text">Комната отдыха</p>
+            </div>
+            <div class="col-md-3 col-xs-6">
+              <img src="img/gallery4.jpg" alt="" class="hospital_photo">
+              <p class="discription_text">Санузел на третьем этаже</p>
+            </div>
+          </div>
+          <div class="show_more">
+            <a class="show_more_action" href="#">смотреть всё</a>
+          </div>
+        </div>
+        <!-- begin reviews -->
+        <div class="reviews_w">
+          <div class="reviews_header">
+            <h2 class="title3">Отзывы</h2>
+            <div class="raiting_filter_w">
+              <select class="raiting_filter">
+                <option data-display="C высоким рейтингом">Nothing</option>
+                <option value="1">Some option</option>
+                <option value="2">Another option</option>
+                <option value="3" disabled>A disabled option</option>
+                <option value="4">Potato</option>
+              </select>
+            </div>
+          </div>
+          <div class="review_item row">
+            <div class="col-md-8">
+              <div class="row left_outer">
+                <div class="col-md-6 left_inner">
+                  <div class="birth_count_item review_item_user">
+                    <div class="block_cell">
+                      <img src="img/user_thumb2.png" alt="" class="birth_count_img left_inner_thumb">
+                    </div>
+                    <div class="user_info block_cell">
+                      <p class="user_name">Наталья И.</p>
+                      <p class="clinic_city">Москва</p>
+                      <p class="birth_time">23</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 right_inner">
+                  <p class="review_date">11.01.2017 11:05</p>
+                </div>
+              </div>
+            <h4 class="review_text_title">Общие впечатления</h4>
+            <p class="review_text">В целом я очень довольна роддомом. Очень благодарна за. отделением Горбунову А. Л. и все врачам этого роддома!</p>
+            <h4 class="review_text_title">Что понравилось</h4>
+            <p class="review_text">Дети всегда чистые, под вниманием педиаторов. Отношение к роженицам тоже очень хорошее. ...</p>
+            <h4 class="review_text_title">Что не понравилось</h4>
+            <p class="review_text">Не понравилось хамство со стороны персонала на посту. Очень часто отвечают грубо, нехотя. ...</p>
+            </div>
+            <div class="col-md-4 card_raiting">
+                <p class="hospital_reiting">Рейтинг роддома — <span class="hospital_reiting_count">4,2</span></p>
+                <div class="raiting_w">
+                  <div class="raiting_list">
+                    <div class="raiting_item block-table">
+                      <span>Комфорт</span>
+                      <div class="stars" data-stars="1">
+                        <svg height="25" width="23" class="star rating" data-rating="1">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="2">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="3">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="4">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating star_disable" data-rating="5">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="raiting_item">
+                      <span>Персонал</span>
+                      <div class="stars" data-stars="1">
+                        <svg height="25" width="23" class="star rating" data-rating="1">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="2">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="3">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="4">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating star_disable" data-rating="5">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="raiting_item">
+                      <span>Качество услуг</span>
+                      <div class="stars" data-stars="1">
+                        <svg height="25" width="23" class="star rating" data-rating="1">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="2">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="3">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="4">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating star_disable" data-rating="5">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="raiting_item">
+                      <span>Чистота</span>
+                      <div class="stars" data-stars="1">
+                        <svg height="25" width="23" class="star rating" data-rating="1">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="2">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="3">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="4">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating star_disable" data-rating="5">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="raiting_item">
+                      <span>Сервис</span>
+                      <div class="stars" data-stars="1">
+                        <svg height="25" width="23" class="star rating" data-rating="1">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="2">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="3">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="4">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating star_disable" data-rating="5">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="raiting_item">
+                      <span>Еда</span>
+                      <div class="stars" data-stars="1">
+                        <svg height="25" width="23" class="star rating" data-rating="1">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="2">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="3">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="4">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating star_disable" data-rating="5">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="unwrap_rewiev_w">
+                  <a href="#" class="unwrap_rewiev_active clearfix">Развернуть отзыв</a>
+                </div>
+            </div>
+          </div>
+          <div class="review_item row">
+            <div class="col-md-8">
+              <div class="row left_outer">
+                <div class="col-md-6 left_inner">
+                  <div class="birth_count_item review_item_user">
+                    <div class="block_cell">
+                      <img src="img/user_thumb2.png" alt="" class="birth_count_img left_inner_thumb">
+                    </div>
+                    <div class="user_info block_cell">
+                      <p class="user_name">Наталья И.</p>
+                      <p class="clinic_city">Москва</p>
+                      <p class="birth_time">23</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 right_inner">
+                  <p class="review_date">11.01.2017 11:05</p>
+                </div>
+              </div>
+            <h4 class="review_text_title">Общие впечатления</h4>
+            <p class="review_text">В целом я очень довольна роддомом. Очень благодарна за. отделением Горбунову А. Л. и все врачам этого роддома!</p>
+            <h4 class="review_text_title">Что понравилось</h4>
+            <p class="review_text">Дети всегда чистые, под вниманием педиаторов. Отношение к роженицам тоже очень хорошее. ...</p>
+            <h4 class="review_text_title">Что не понравилось</h4>
+            <p class="review_text">Не понравилось хамство со стороны персонала на посту. Очень часто отвечают грубо, нехотя. ...</p>
+            </div>
+            <div class="col-md-4 card_raiting">
+                <p class="hospital_reiting">Рейтинг роддома — <span class="hospital_reiting_count">4,2</span></p>
+                <div class="raiting_w">
+                  <div class="raiting_list">
+                    <div class="raiting_item block-table">
+                      <span>Комфорт</span>
+                      <div class="stars" data-stars="1">
+                        <svg height="25" width="23" class="star rating" data-rating="1">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="2">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="3">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="4">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating star_disable" data-rating="5">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="raiting_item">
+                      <span>Персонал</span>
+                      <div class="stars" data-stars="1">
+                        <svg height="25" width="23" class="star rating" data-rating="1">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="2">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="3">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="4">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating star_disable" data-rating="5">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="raiting_item">
+                      <span>Качество услуг</span>
+                      <div class="stars" data-stars="1">
+                        <svg height="25" width="23" class="star rating" data-rating="1">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="2">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="3">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="4">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating star_disable" data-rating="5">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="raiting_item">
+                      <span>Чистота</span>
+                      <div class="stars" data-stars="1">
+                        <svg height="25" width="23" class="star rating" data-rating="1">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="2">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="3">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="4">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating star_disable" data-rating="5">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="raiting_item">
+                      <span>Сервис</span>
+                      <div class="stars" data-stars="1">
+                        <svg height="25" width="23" class="star rating" data-rating="1">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="2">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="3">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="4">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating star_disable" data-rating="5">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="raiting_item">
+                      <span>Еда</span>
+                      <div class="stars" data-stars="1">
+                        <svg height="25" width="23" class="star rating" data-rating="1">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="2">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="3">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="4">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating star_disable" data-rating="5">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="unwrap_rewiev_w">
+                  <a href="#" class="unwrap_rewiev_active clearfix">Развернуть отзыв</a>
+                </div>
+            </div>
+          </div>
+          <div class="review_item row">
+            <div class="col-md-8">
+              <div class="row left_outer">
+                <div class="col-md-6 left_inner">
+                  <div class="birth_count_item review_item_user">
+                    <div class="block_cell">
+                      <img src="img/user_thumb2.png" alt="" class="birth_count_img left_inner_thumb">
+                    </div>
+                    <div class="user_info block_cell">
+                      <p class="user_name">Наталья И.</p>
+                      <p class="clinic_city">Москва</p>
+                      <p class="birth_time">23</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 right_inner">
+                  <p class="review_date">11.01.2017 11:05</p>
+                </div>
+              </div>
+            <h4 class="review_text_title">Общие впечатления</h4>
+            <p class="review_text">В целом я очень довольна роддомом. Очень благодарна за. отделением Горбунову А. Л. и все врачам этого роддома!</p>
+            <h4 class="review_text_title">Что понравилось</h4>
+            <p class="review_text">Дети всегда чистые, под вниманием педиаторов. Отношение к роженицам тоже очень хорошее. ...</p>
+            <h4 class="review_text_title">Что не понравилось</h4>
+            <p class="review_text">Не понравилось хамство со стороны персонала на посту. Очень часто отвечают грубо, нехотя. ...</p>
+            </div>
+            <div class="col-md-4 card_raiting">
+                <p class="hospital_reiting">Рейтинг роддома — <span class="hospital_reiting_count">4,2</span></p>
+                <div class="raiting_w">
+                  <div class="raiting_list">
+                    <div class="raiting_item block-table">
+                      <span>Комфорт</span>
+                      <div class="stars" data-stars="1">
+                        <svg height="25" width="23" class="star rating" data-rating="1">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="2">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="3">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="4">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating star_disable" data-rating="5">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="raiting_item">
+                      <span>Персонал</span>
+                      <div class="stars" data-stars="1">
+                        <svg height="25" width="23" class="star rating" data-rating="1">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="2">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="3">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="4">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating star_disable" data-rating="5">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="raiting_item">
+                      <span>Качество услуг</span>
+                      <div class="stars" data-stars="1">
+                        <svg height="25" width="23" class="star rating" data-rating="1">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="2">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="3">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="4">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating star_disable" data-rating="5">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="raiting_item">
+                      <span>Чистота</span>
+                      <div class="stars" data-stars="1">
+                        <svg height="25" width="23" class="star rating" data-rating="1">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="2">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="3">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="4">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating star_disable" data-rating="5">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="raiting_item">
+                      <span>Сервис</span>
+                      <div class="stars" data-stars="1">
+                        <svg height="25" width="23" class="star rating" data-rating="1">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="2">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="3">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="4">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating star_disable" data-rating="5">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="raiting_item">
+                      <span>Еда</span>
+                      <div class="stars" data-stars="1">
+                        <svg height="25" width="23" class="star rating" data-rating="1">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="2">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="3">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating" data-rating="4">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                        <svg height="25" width="23" class="star rating star_disable" data-rating="5">
+                          <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="unwrap_rewiev_w">
+                  <a href="#" class="unwrap_rewiev_active clearfix">Развернуть отзыв</a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!-- end reviews -->
       </div>
-      <!-- begin sidebar -->  
+      <!-- begin sidebar -->
       <aside class="col-md-3 col-sm-4 sidebar sidebar__object_page clearfix">
         <a href="#" class="object_sidebar_link"><img src="img/sidebar-img1.png" alt="" class="sidebar_img"></a>
         <a href="#" class="object_sidebar_link"><img src="img/sidebar-img2.png" alt="" class="sidebar_img"></a>
@@ -258,7 +822,7 @@
           <div class="discussion_item">
             <h3 class="title3">Мамы обсуждают</h3>
             <p class="undertitle_text">«Только лето, только солнце и …?»</p>
-            <div class="user_info_w block-table">
+            <div>
               <div class="block_cell">
                 <img src="img/user_thumb.png" alt="" class="user_info_img">
               </div>
@@ -266,7 +830,7 @@
                 <p class="user_name">Женя И.</p>
                 <p class="time_ago">40 мин назад</p>
               </div>
-              <p class="discussion_text">
+              <p class="discussion_text sidebar_discussion_text">
                 Что у вас солнечного? Расскажи те о своих рецептах проведения лета, чтобы осталось то послевк усие, которое приятно...
                 <a href="#" class="show_more_discussion"></a>
               </p>
@@ -280,6 +844,7 @@
   <script src="js/jquery-3.1.1.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.nice-select.js"></script>
   <script>
   $('#myTab a').click(function(e) {
     e.preventDefault();
@@ -297,6 +862,11 @@
       disableDefaultUI: true
     });
   }
+  </script>
+  <script>
+  $(document).ready(function() {
+    $('select').niceSelect();
+  });
   </script>
 </body>
 
