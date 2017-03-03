@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/Roboto-Regular/Roboto-Regular.ttf') format('truetype'),
+    	 url('../fonts/Roboto-Regular/Roboto-Regular.woff2') format('woff2'),
+         url('../fonts/Roboto-Regular/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* font-family: "BadScriptRegular"; */
+@font-face {
+    font-family: "BadScriptRegular";
+    src: url("../fonts/BadScriptRegular/BadScriptRegular.eot");
+    src: url("../fonts/BadScriptRegular/BadScriptRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/BadScriptRegular/BadScriptRegular.woff") format("woff"),
+    url("../fonts/BadScriptRegular/BadScriptRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+	font-family: 'Roboto-light';
+	src: url('../fonts/Roboto-Light/Roboto-Light.eot');
+	src: url('../fonts/Roboto-Light/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Roboto-Light/Roboto-Light.woff') format('woff'),
+		 url('../fonts/Roboto-Light/Roboto-Light.ttf') format('truetype'),
+		 url('../fonts/Roboto-Light/Roboto-Light.svg#Roboto-light') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'glyphicons-halflings-regular';
+	src: url('../fonts/glyphicons-halflings-regular/glyphicons-halflings-regular.eot');
+	src: url('../fonts/glyphicons-halflings-regular/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/glyphicons-halflings-regular/glyphicons-halflings-regular.woff') format('woff'),
+		 url('../fonts/glyphicons-halflings-regular/glyphicons-halflings-regular.ttf') format('truetype'),
+		 url('../fonts/glyphicons-halflings-regular/glyphicons-halflings-regular.svg#glyphicons-halflings-regular') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
