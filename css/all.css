@@ -420,7 +420,7 @@ header .account-block {
   font-size: 16px;
   color: #757f81;
   font-weight: 300;
-  background: #ffe8ed url(../images/select-arrow.png) no-repeat 86% center;
+  background: #ffe8ed url(../img/select-arrow.png) no-repeat 86% center;
   background-size: 16px;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -1278,7 +1278,7 @@ input.r {
   margin-right: 8px;
 }
 .my-like {
-  background: #ffdce3 url(../images/like.png) no-repeat 12px center;
+  background: #ffdce3 url(../img/like.png) no-repeat 12px center;
   font-size: 16px;
   font-weight: 300;
   color: #ff5779 !important;
@@ -1299,7 +1299,7 @@ input.r {
   display: inline-block;
 }
 .my-answer {
-  background: #f1fccc url(../images/answer.png) no-repeat 9px center;
+  background: #f1fccc url(../img/answer.png) no-repeat 9px center;
   font-size: 16px;
   font-weight: 300;
   color: #8cab28 !important;
@@ -2938,7 +2938,14 @@ label[for="my_check2"] {
   padding-right: 0;
 }
 .vert_slider_blogs {
+  clear: both;
+  display: block;
   margin-bottom: 25px;
+}
+.vert_slider_blogs:after {
+  display: table;
+  clear: both;
+  content: '';
 }
 .vert_slider_blogs a {
   float: left;
@@ -2954,8 +2961,7 @@ label[for="my_check2"] {
   font-size: 15px;
   color: #068aa1;
   font-weight: 300;
-  margin-top: 14px;
-  white-space: nowrap;
+  margin-top: 12px;
 }
 .vert_slider_blogs li {
   width: 100% !important;
@@ -3106,14 +3112,16 @@ label[for="my_check2"] {
     padding-left: 2px;
     padding-right: 2px;
   }
+  .flex5 a {
+    margin-bottom: 5px;
+  }
+  .comment-item > .col-lg-2 {
+    overflow: hidden;
+  }
 }
 @media (min-width: 480px) and (max-width: 768px) {
   .sidebar__object_page {
     font-size: 0;
-  }
-  .object_sidebar_link {
-    width: 50%;
-    padding: 10px;
   }
   .mothers_blog_w img {
     margin-bottom: 10px;
@@ -3121,23 +3129,27 @@ label[for="my_check2"] {
   .mothers_blog_w .txt {
     margin-bottom: 20px;
   }
+  .mothers_blog_w .object_sidebar_link {
+    width: 50%;
+  }
 }
 @media all and (max-width: 768px) {
   .sidebar {
-    margin: 0 20px 20px;
+    margin: 15px;
   }
   .navbar-nav > li:not(:last-child):after {
     right: 0;
     left: 5px;
   }
+  .col-lg-5 > .img-responsive.pull-left {
+    float: none !important;
+  }
+  .author_commets_w {
+    margin: 10px 0;
+  }
 }
 @media all and (max-width: 480px) {
-  .sidebar {
-    margin-left: 0 20px;
-  }
-  .book_w__right,
-  .book_w__left,
-  .book_w__center {
+  .row__tab .col-md-4 {
     width: 100%;
   }
   .search_w {
@@ -3154,5 +3166,50 @@ label[for="my_check2"] {
     margin-bottom: 25px;
     display: block;
     padding: 10px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .object_sidebar_link img {
+    max-width: 100%;
+  }
+  .my-answer {
+    margin-top: 5px;
+  }
+  .variants label {
+    display: block;
+  }
+  footer .container .row {
+    margin-top: 20px;
+  }
+  footer ul {
+    width: 50%;
+  }
+  .white-block .flex4 a {
+    width: 50%;
+    padding: 0 2px;
+  }
+  .white-block .flex4 img {
+    max-width: 100%;
+  }
+  .comment-item .top {
+    margin-top: 5px;
+  }
+  .write-comment > .col-lg-2 {
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  .comments-top .tar {
+    text-align: left;
+    padding-left: 0;
+    margin-top: 10px;
+  }
+}
+@media all and (max-width: 320px) {
+  .flex5 {
+    justify-content: center;
+  }
+  .social-span {
+    position: static;
+    float: none;
   }
 }
