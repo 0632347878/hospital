@@ -11,7 +11,6 @@ body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
 .navbar-default li:not(.active) a:hover {
     color: #747a7b !important;
 }
@@ -3195,6 +3194,7 @@ label[for="my_check1"], label[for="my_check2"] {
 .heart__article:before {
 	display: none;
 }
+// Begin page gallery_list
 .gallery_list_content {
 	padding-left: 0;
 	p {
@@ -3209,10 +3209,13 @@ label[for="my_check1"], label[for="my_check2"] {
 	margin-bottom: 20px;
 	input[type="text"] {
 		padding-left: 5px !important;
+    width: 86% !important;
 	}
+  input[type="button"] {
+    width: 14% !important;
+  }
 	&+.row {
 		text-align: right;
-		
 	} 
 }
 .add_album, .add_photo {
@@ -3232,9 +3235,6 @@ label[for="my_check1"], label[for="my_check2"] {
 		.transition(background .4s);
 	}
 }
-.add_photo_addition {
-	display: none;
-}
 .add_album {
 	margin-left: 30px;
 }
@@ -3247,8 +3247,10 @@ label[for="my_check1"], label[for="my_check2"] {
 	}
 	.events_item {
 		text-align: center;
+    position: relative;
 		.like {
 			display: block;
+      position: relative;
 			.heart {
 				font-size: 22px;
 			}
@@ -3294,6 +3296,7 @@ label[for="my_check1"], label[for="my_check2"] {
 		}
 	}
 	.event_add_photo {
+    display: block;
 		margin-top: 10px;
 		&:before {
 			content: "+";
@@ -3309,13 +3312,8 @@ label[for="my_check1"], label[for="my_check2"] {
 		margin-bottom: 35px;
 	}
 }
-.event_add_photo:hover .add_photo_addition {
-	display: block !important;
-}
+
 .fresh_photo {
-	.add_photo_addition {
-		display: block !important;
-	}
 	.events_item {
 		display: -webkit-flex;
 		display: -moz-flex;
@@ -3348,10 +3346,61 @@ label[for="my_check1"], label[for="my_check2"] {
 		background-color: transparent;
 	}
 }
+.mams_album {
+    .descr {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
+.fresh_photo, .mams_album  {
+  .pages {  
+  margin: 20px 0;
+  }
+}
+.mams_album {
+  .like {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .heart {
+    font-size: 22px;
+    &:before {
+      display: none;
+    }
+  }
+  img {
+    max-width: 100%;
+  }
+}
+.add_photo_addition {
+  display: none;
+  .like {
+    display: inline-block !important;
+  }
+}
+.event_add_photo:hover +.add_photo_addition
+ {
+  display: block;
+  position: absolute;
+  bottom: -30px;
+}
+.event_add_photo:hover {
+  &:after {
+    content: "";
+    height: 200px;
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    height: 25%;
+    z-index: 2;
+  }
+}
 
 
-
-
+// End page gallery_list
 // ---- begin Media -------
 @media all and (max-width: 1199px) {
 	.card_form {

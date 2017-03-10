@@ -3066,6 +3066,10 @@ label[for="my_check2"] {
 }
 .gallery_list_search input[type="text"] {
   padding-left: 5px !important;
+  width: 86% !important;
+}
+.gallery_list_search input[type="button"] {
+  width: 14% !important;
 }
 .gallery_list_search + .row {
   text-align: right;
@@ -3097,9 +3101,6 @@ label[for="my_check2"] {
   -o-transition: background 0.4s;
   transition: background 0.4s;
 }
-.add_photo_addition {
-  display: none;
-}
 .add_album {
   margin-left: 30px;
 }
@@ -3111,9 +3112,11 @@ label[for="my_check2"] {
 }
 .gallery_list_events .events_item {
   text-align: center;
+  position: relative;
 }
 .gallery_list_events .events_item .like {
   display: block;
+  position: relative;
 }
 .gallery_list_events .events_item .like .heart {
   font-size: 22px;
@@ -3157,6 +3160,7 @@ label[for="my_check2"] {
   margin-top: -17px;
 }
 .gallery_list_events .event_add_photo {
+  display: block;
   margin-top: 10px;
 }
 .gallery_list_events .event_add_photo:before {
@@ -3170,12 +3174,6 @@ label[for="my_check2"] {
 }
 .gallery_list_events .flex4 {
   margin-bottom: 35px;
-}
-.event_add_photo:hover .add_photo_addition {
-  display: block !important;
-}
-.fresh_photo .add_photo_addition {
-  display: block !important;
 }
 .fresh_photo .events_item {
   display: -webkit-flex;
@@ -3205,6 +3203,50 @@ label[for="my_check2"] {
 }
 .rewiev_pagination .pagination_link:hover {
   background-color: transparent;
+}
+.mams_album .descr {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.fresh_photo .pages,
+.mams_album .pages {
+  margin: 20px 0;
+}
+.mams_album .like {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+.mams_album .heart {
+  font-size: 22px;
+}
+.mams_album .heart:before {
+  display: none;
+}
+.mams_album img {
+  max-width: 100%;
+}
+.add_photo_addition {
+  display: none;
+}
+.add_photo_addition .like {
+  display: inline-block !important;
+}
+.event_add_photo:hover + .add_photo_addition {
+  display: block;
+  position: absolute;
+  bottom: -30px;
+}
+.event_add_photo:hover:after {
+  content: "";
+  height: 200px;
+  width: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  height: 25%;
+  z-index: 2;
 }
 @media all and (max-width: 1199px) {
   .card_form {
