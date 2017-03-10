@@ -1157,7 +1157,7 @@ input.r {
   margin-top: 40px;
 }
 .watch {
-  background: url(../images/eye.png) no-repeat left center;
+  background: url(../img/eye.png) no-repeat left center;
   padding-left: 30px;
   margin-left: 8px;
   font-size: 16px;
@@ -1186,7 +1186,7 @@ input.r {
   text-decoration: none !important;
 }
 .chat {
-  background: url(../images/chat.png) no-repeat left center;
+  background: url(../img/chat.png) no-repeat left center;
   padding-left: 25px;
   margin-left: 13px;
   font-size: 16px;
@@ -3099,9 +3099,6 @@ label[for="my_check2"] {
 }
 .add_photo_addition {
   display: none;
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 .add_album {
   margin-left: 30px;
@@ -3114,7 +3111,6 @@ label[for="my_check2"] {
 }
 .gallery_list_events .events_item {
   text-align: center;
-  position: relative;
 }
 .gallery_list_events .events_item .like {
   display: block;
@@ -3177,6 +3173,38 @@ label[for="my_check2"] {
 }
 .event_add_photo:hover .add_photo_addition {
   display: block !important;
+}
+.fresh_photo .add_photo_addition {
+  display: block !important;
+}
+.fresh_photo .events_item {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 190px;
+}
+.fresh_photo .like {
+  margin-top: 10px;
+}
+.fresh_photo .heart {
+  font-size: 22px;
+}
+.fresh_photo .heart:before {
+  display: none;
+}
+.fresh_addition {
+  margin-top: 5px;
+}
+.fresh_addition a {
+  width: auto;
+  margin-top: 0 !important;
+  vertical-align: middle;
+}
+.rewiev_pagination .pagination_link:hover {
+  background-color: transparent;
 }
 @media all and (max-width: 1199px) {
   .card_form {

@@ -1334,7 +1334,7 @@ input.r {
 }
 
 .watch {
-    background: url(../images/eye.png) no-repeat left center;
+    background: url(../img/eye.png) no-repeat left center;
     padding-left: 30px;
     margin-left: 8px;
     font-size: 16px;
@@ -1366,7 +1366,7 @@ input.r {
 }
 
 .chat {
-    background: url(../images/chat.png) no-repeat left center;
+    background: url(../img/chat.png) no-repeat left center;
     padding-left: 25px;
     margin-left: 13px;
     font-size: 16px;
@@ -3234,9 +3234,6 @@ label[for="my_check1"], label[for="my_check2"] {
 }
 .add_photo_addition {
 	display: none;
-	position: absolute;
-	bottom: 0;
-	left: 0;
 }
 .add_album {
 	margin-left: 30px;
@@ -3250,7 +3247,6 @@ label[for="my_check1"], label[for="my_check2"] {
 	}
 	.events_item {
 		text-align: center;
-		position: relative;
 		.like {
 			display: block;
 			.heart {
@@ -3316,9 +3312,42 @@ label[for="my_check1"], label[for="my_check2"] {
 .event_add_photo:hover .add_photo_addition {
 	display: block !important;
 }
-
-
-
+.fresh_photo {
+	.add_photo_addition {
+		display: block !important;
+	}
+	.events_item {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-direction: column;
+		flex-basis: 190px;
+	}
+	.like {
+		margin-top: 10px;
+	}
+	.heart {
+		font-size: 22px;
+		&:before {
+		display: none;
+		}
+	}
+}
+.fresh_addition {
+	margin-top: 5px;
+	a {
+		width: auto;
+		margin-top: 0 !important;
+		vertical-align: middle;
+	}
+}
+.rewiev_pagination {
+	.pagination_link:hover {
+		background-color: transparent;
+	}
+}
 
 
 
