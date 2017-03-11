@@ -1,0 +1,163 @@
+/* ---- begin Denis Media ------- */
+@media all and (max-width: 1199px) {
+  .card_form {
+    display: inline-table;
+    padding-left: 40px;
+  }
+  .card_raiting + .card_form button {
+    margin-top: 10px;
+  }
+  .birth_count_item .user_info p:last-child {
+    padding-bottom: 14px;
+  }
+  .discussion_item {
+    width: 200px !important;
+    height: 370px !important;
+  }
+  .sidebar__mams {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .card_statistic + .card_raiting {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .birth_count_w {
+    padding-right: 20px;
+  }
+}
+@media all and (max-width: 992px) {
+  .reviews_header {
+    width: 100%;
+  }
+  .card_raiting .raiting_w {
+    padding-left: 20px;
+  }
+  .hospital_reiting {
+    text-align: center;
+    margin: 15px 0 7px;
+  }
+  .col-md-8 + .card_raiting {
+    position: static;
+  }
+  .col-md-8 + .card_raiting .unwrap_rewiev_w {
+    position: static;
+  }
+  .unwrap_rewiev_w {
+    padding-left: 20px;
+  }
+  .has_birth,
+  .was_birth {
+    justify-content: space-around;
+  }
+  .categories_w .category_item {
+    width: 50%;
+  }
+  .slick_w .slick_slide {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .flex5 a {
+    margin-bottom: 5px;
+  }
+  .comment-item > .col-lg-2 {
+    overflow: hidden;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .sidebar__object_page {
+    font-size: 0;
+  }
+  .mothers_blog_w img {
+    margin-bottom: 10px;
+  }
+  .mothers_blog_w .txt {
+    margin-bottom: 20px;
+  }
+  .mothers_blog_w .object_sidebar_link {
+    width: 50%;
+  }
+}
+@media all and (max-width: 768px) {
+  .sidebar {
+    margin: 15px;
+  }
+  .navbar-nav > li:not(:last-child):after {
+    right: 0;
+    left: 5px;
+  }
+  .col-lg-5 > .img-responsive.pull-left {
+    float: none !important;
+  }
+  .author_commets_w {
+    margin: 10px 0;
+  }
+}
+@media all and (max-width: 480px) {
+  .row__tab .col-md-4 {
+    width: 100%;
+  }
+  .search_w {
+    width: 90%;
+  }
+  .reviews_header {
+    flex-direction: column;
+  }
+  .raiting_filter_w {
+    margin-right: auto;
+    width: auto;
+  }
+  .object_sidebar_link {
+    margin-bottom: 25px;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  .object_sidebar_link img {
+    max-width: 100%;
+  }
+  .my-answer {
+    margin-top: 5px;
+  }
+  .variants label {
+    display: block;
+  }
+  footer .container .row {
+    margin-top: 20px;
+  }
+  footer ul {
+    width: 50%;
+  }
+  .white-block .flex4 a {
+    width: 50%;
+    padding: 0 2px;
+  }
+  .white-block .flex4 img {
+    max-width: 100%;
+  }
+  .comment-item .top {
+    margin-top: 5px;
+  }
+  .write-comment > .col-lg-2 {
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  .comments-top .tar {
+    text-align: left;
+    padding-left: 0;
+    margin-top: 10px;
+  }
+}
+@media all and (max-width: 320px) {
+  .flex5 {
+    justify-content: center;
+  }
+  .social-span {
+    position: static;
+    float: none;
+  }
+}
