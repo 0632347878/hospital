@@ -66,6 +66,9 @@
   .comment-item > .col-lg-2 {
     overflow: hidden;
   }
+  .events_item {
+    margin-bottom: 25px;
+  }
 }
 @media (min-width: 480px) and (max-width: 768px) {
   .sidebar__object_page {
@@ -132,13 +135,13 @@
   footer ul {
     width: 50%;
   }
-  .white-block .flex4 a {
-    width: 50%;
-    padding: 0 2px;
-  }
-  .white-block .flex4 img {
-    max-width: 100%;
-  }
+  // .white-block .flex4 a {
+  //   width: 50%;
+  //   padding: 0 2px;
+  // }
+  // .white-block .flex4 img {
+  //   max-width: 100%;
+  // }
   .comment-item .top {
     margin-top: 5px;
   }
