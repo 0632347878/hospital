@@ -2,665 +2,666 @@
 <html lang="en-US">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="csrf-param" content="_csrf-frontend">
-  <meta name="csrf-token" content="a1hSeEF3RmMhdTkpLTISIggePxsiEg0gDAo4EzIFChZTNSs1NkIzMA==">
-  <title>Блог для мам</title>
-  <link href="css/bootstrap.css" rel="stylesheet">
-  <link href="css/rcarousel.css" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Bad+Script&amp;subset=cyrillic" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700" rel="stylesheet">
-  <link rel="stylesheet" href="css/fonts.css">
-  <link rel="stylesheet" href="css/all.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="csrf-param" content="_csrf-frontend">
+	<meta name="csrf-token" content="a1hSeEF3RmMhdTkpLTISIggePxsiEg0gDAo4EzIFChZTNSs1NkIzMA==">
+	<title>Блог для мам</title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/rcarousel.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bad+Script&amp;subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/site.css">
+	<link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
-  <!-- Begin wrap -->
-  <div class="wrap">
-    <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-4">
-            <a href="/" class="logo-link"><img src="img/logo.png" alt=""></a>
-          </div>
-          <div class="col-lg-4 col-md-8 col-sm-8">
-            <div class="search-wrapper">
-              <input type="text" class="search-input" placeholder="Поиск">
-              <button class="search-icon"></button>
-            </div>
-          </div>
-          <div class="clearfix visible-sm"></div>
-          <div class="col-lg-4 col-md-12">
-            <div class="account-block pull-left">
-              <a href="">Войти</a> / <a href="">Регистрация</a>
-            </div>
-            <div class="social-block pull-right">
-              Войти с помощью:
-              <div class="clearfix"></div>
-              <div class="social">
-                <a href=""><img src="http://placehold.it/26x26/ff6538?text= &txt= " alt=""></a>
-                <a href=""><img src="http://placehold.it/26x26/0582af?text= &txt= " alt=""></a>
-                <a href=""><img src="http://placehold.it/26x26/2f7df3?text= &txt= " alt=""></a>
-                <a href=""><img src="http://placehold.it/26x26/ff3c3d?text= &txt= " alt=""></a>
-                <a href=""><img src="http://placehold.it/26x26/068aa1?text= &txt= " alt=""></a>
-                <a href=""><img src="http://placehold.it/26x26/ff5779?text= &txt= " alt=""></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <nav id="w0" class="navbar navbar-default" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w0-collapse"><span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span></button>
-        </div>
-        <div id="w0-collapse" class="collapse navbar-collapse">
-          <ul id="w1" class="navbar-nav nav">
-            <li><a href="/frontend/web/site/planning">Планирование</a></li>
-            <li><a href="/frontend/web/site/about">Беременность</a></li>
-            <li><a href="/frontend/web/site/contact">Роды</a></li>
-            <li><a href="/frontend/web/site/about">Малыши до года</a></li>
-            <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Детки от <b class="caret"></b></a>
-              <ul id="w2" class="dropdown-menu">
-                <li><a href="/" tabindex="-1">От 1 года до 3- лет</a></li>
-                <li><a href="#" tabindex="-1">От 3 года до 7- лет</a></li>
-                <li><a href="#" tabindex="-1">От 7 года до 12- лет</a></li>
-                <li><a href="#" tabindex="-1">Тинейджеры</a></li>
-              </ul>
-            </li>
-            <li><a href="/frontend/web/site/about">Консультации</a></li>
-            <li><a href="/frontend/web/site/about">Барахолка</a></li>
-            <li><a href="/frontend/web/site/about">Соцобъекты</a></li>
-            <li><a href="/frontend/web/site/rubric">Сообщества</a></li>
-            <li class="active"><a href="/frontend/web/site/index">Блоги</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-9 article__title">
-          <!-- begin block-content -->
-          <div class="white-block">
-            <ol class="breadcrumb breadcrumb_article">
-              <li><a href="#">Главная</a></li>
-              <li><a href="#">Блоги</a></li>
-              <li class="active">Автор</li>
-            </ol>
-            <h2>Полезные вещи для маленьких путешественников и их мам</h2>
-            <p class="intresting"><span>Теги:</span>Путешествия, малыши, Полезное</p>
-            <div class="author_info">
-              <img src="img/author-ava.png" alt="">
-              <p class="intresting"><span>Автор:</span>Екатерина Савина</p>
-            </div>
-            <a href="#" class="author_commets_w pull-right">
-            Комментарии <span id="author_comments_count">17</span>
-          </a>
-            <div class="row">
-              <div class="col-lg-5">
-                <img class="pull-left margin-image img-responsive" src="img/article-img.jpg" alt="article-img">
-              </div>
-              <div class="block-content">
-                <h5>Лето — прекрасная, но такая короткая пора! </h5>
-                <p class="txt">
-                  Не упускайте шанс насладиться на 100%. Наполните его яркими впечатлениями, отправляйтесь в путешествие всей семьёй.
-                </p>
-                <p class="txt">
-                  Путешествие с детьми нужно спланировать тщательнее, чем обычнее. Это поможет вам меньше волноваться, а ребёнку испытывать меньший стресс. Готовьтесь к путешествию вместе, обсуждайте его с малышом, пусть в семье царит радостное предвкушение.
-                </p>
-                <p class="txt">
-                  Продумайте заранее самые важные вопросы: питание малыша, его сон, способ перемещения в пространстве.
-                </p>
-                <p class="txt">
-                  Обеспечить всё это в дороге легко и просто с помощью современных удобных приспособлений, которые оценили активные родители по всему миру. Образовательный портал с удовольствием делится с блогомамами хитростями, идеями и находками для детишек от 0 до года, которые сделают ваше семейное путешествие радостным и комфортным.
-                </p>
-                <h4 class="discription_text discription_text__article">Малыш 0-3 месяца</h4>
-                <p class="txt">
-                  Если вы решились на путешествие в столь раннем возрасте, вас можно только поздравить. Чаще всего, несмотря на беспокойство бабушек и педиатров, такие путешествия проходят вполне благополучно, а смелость родителей вознаграждается вполне спокойным отдыхом. Ведь такому крохе ничего не надо, кроме мамы и её молочка. Выбирайте спокойные места, обеспечьте максимальный комфорт маме. Её отличное самочувствие — залог благополучия малыша.
-                </p>
-                <div class="inline_article">
-                  <h5>
-                  Слинг на одно плечо.
-                </h5>
-                  <p class="txt">
-                    В этом возрасте малыш много спит, часто ест и очень-очень нуждается в контакте с телом мамы. Чем больше – тем лучше. А если еще добавить, что в путешествии надо быть мобильным и много передвигаться, то без слинга будет обойтись трудновато. Для такого маленького ребенка самым удобным будет слинг на одно плечо и горизонтальное положение в нем. Это либо слинг с кольцами (для опытных слингомам) или ОРТОслинг (для начинающих). Заранее попрактикуйтесь, чтобы уверенно чувствовать себя в дороге.
-                  </p>
-                </div>
-                <div class="inline_article">
-                  <h5>
-                  Непромокаемые впитывающие простыни.
-                </h5>
-                  <p class="txt">
-                    Чтобы не держать малыша круглосуточно в подгузниках и не испортить матрас в отеле, запаситесь заранее парочкой многоразовых непромокаемых простыней. Впитывающие простыни стелятся на кровать вместо обычной простыни, задерживают влагу и спасают вас от утомительных ночных перестиланий и утренних просушиваний матраса. Они дышащие, очень приятные к телу, тонкие, мягкие и абсолютно натуральные.
-                  </p>
-                </div>
-                <div class="inline_article">
-                  <h5>
-                  Автокресло или транспортная система группы 0+.
-                </h5>
-                  <p class="txt">
-                    Транспортная система очень удобна вне зависимости от способа вашего путешествия. Автокресло пригодится вам, чтобы добраться до аэропорта на такси, его можно взять с собой в салон самолета, в поезде с ним тоже удобно. А в машине — это просто насущная необходимость.
-                  </p>
-                </div>
-                <p class="txt">
-                  Не забудьте укомплектовать своё автокресло или транспортную систему шторкой для сна.. Благодаря этой штуке ваш малыш будет спать крепче и дольше. И не будет просыпаться при перемещении из машины на улицу и т.д. Плюс шторка защищает от 98% вредного УФ излучения, что особенно критично в богатых солнцем регионах.
-                </p>
-                <h4 class="discription_text discription_text__article">Малыш 3-6 месяцев</h4>
-                <p class="txt">
-                  Ребёнок подрастает, меньше спит, больше интересуется окружающим миром. В путешествии он теперь доставит вам немного больше хлопот. Но это все равно не повод отказываться от смены обстановки и радостных впечатлений для мамы. В этом возрасте уже можно и даже более удобно носить малыша вертикально. Поэтому вы оцените преимущества слинг- шарфа. Он равномерно распределяет нагрузку на оба маминых плеча. Можно освоить разнообразные намотки и применять их в зависимости от ситуации. Слинг с кольцами, непромокаемые простынки и транспортная система все ещё актуальны для сна малыша.
-                </p>
-                <div class="inline_article">
-                  <p class="txt">
-                    В этом возрасте отдых с малышами уже меньше похож на отдых в стандартном понимании этого слова. Т.е. с ползающим путешественником особо уже не расслабишься. Зато это очень весело — будет, что вспомнить долгими зимними вечерами. Если малыш уверенно сидит, пришло время для покупки новых чудесных приспособлений, облегчающих жизнь путешественникам с детьми.
-                  </p>
-                </div>
-                <div class="inline_article">
-                  <h5>
-                    Хипсит.
-                  </h5>
-                  <p class="txt">
-                    Хипсит — это очень удобная переноска для детей старше 6 месяцев. Хипсит сохраняет мамину осанку, а малышу дарит возможность активнее изучать мир.
-                  </p>
-                </div>
-                <p class="txt">
-                  Посадить малыша на хипсит и снять с него — дело наносекунды, поэтому хипситопассажиры гораздо чаще упражняются в ползании и ходьбе, чем пассажиры слингов и колясок. Хипсит расширяет малышу кругозор в прямом смысле слова: малыш сидит высоко, глядит далеко и во все стороны, ведь хипсит в отличие от слинга или эрго- рюкзачка не стесняет движений подрастающего путешественника.
-                </p>
-                <div class="inline_article">
-                  <h5>Коляска-трость</h5>
-                  <p class="txt">
-                    Легкая и маневренная складная коляска-трость очень удобна в путешествиях. Её, как правило, можно взять в салон самолета. На неё удобно сложить вещи. Есть детки, которые по-настоящему любят свой колёсный транспорт. В таких семьях коляска- трость хорошее подспорье. Не забудьте дополнить вашу коляску шторкой для сна Снузшейд , чтобы укрыть кроху от солнца в путешествии.
-                  </p>
-                </div>
-                <div class="inline_article">
-                  <h5>Тотсит.</h5>
-                  <p class="txt">
-                    Обзаведясь тотситом с началом прикорма, вы не расстанетесь с ним лет до двух точно. Это очень удобная вещь. Тотсит – это компактный тканевый стульчик для кормления. Действительно компактный – в сложенном виде не больше подгузника. По сути, это просто тканевая накидка, которая превращает любой стул со спинкой в удобное и безопасное сидение для малыша.
-                  </p>
-                </div>
-                <p class="txt">
-                  Конструкция тотсита хитроумна и продумана до малейших деталей, а пользоваться им легко и просто. Теперь вам с малышом подойдет абсолютно любое кафе, которое придётся вам по душе. Даже если там нет детских стульчиков или если они все заняты. С помощью тотсита вы превратите любой стул в стульчик для кормления как по мановению волшебной палочки. Тотсит подходит для малышей, которые уже уверенно сидят. Благодаря замечательному английскому качеству ткани и фурнитуры, тотсит прослужит верой и правдой даже нескольким детям.
-                </p>
-                <div class="inline_article">
-                  <p class="txt">
-                    Слинг на одно плечо уже лучше заменить на эргономичный рюкзачок, а вот непромокаемые впитывающие простынки очень вам пригодятся во время ночных «аварий», особенно, если вы уже отказываетесь от подугузников. В путешествии, когда всё выбивается из привычного ритма, такие полезные штуки могут здорово облегчить маме жизнь и помочь ей насладиться отдыхом по полной программе.
-                  </p>
-                </div>
-                <div class="article-bottom">
-                  <div class="like-block col-lg-3 col-md-3 col-sm-3 col-xs-12 nopadd" style="margin-top: 0;">
-                    <a href="" class="like active"><span class="heart heart__article">❤</span> 137</a>
-                  </div>
-                  <div class="social article-soc col-lg-5 col-md-5 col-xs-12 col-sm-5 col-lg-push-4 col-md-push-4
-                            col-sm-push-4">
-                    <span class="social-span">Поделиться</span>
-                    <div style="line-height: 0; float: right;">
-                      <a href=""><img src="http://placehold.it/26x26/ff6538?text= &amp;txt= " alt=""></a>
-                      <a href=""><img src="http://placehold.it/26x26/0582af?text= &amp;txt= " alt=""></a>
-                      <a href=""><img src="http://placehold.it/26x26/2f7df3?text= &amp;txt= " alt=""></a>
-                      <a href=""><img src="http://placehold.it/26x26/ff3c3d?text= &amp;txt= " alt=""></a>
-                      <a href=""><img src="http://placehold.it/26x26/068aa1?text= &amp;txt= " alt=""></a>
-                      <a href=""><img src="http://placehold.it/26x26/ff5779?text= &amp;txt= " alt=""></a>
-                    </div>
-                  </div>
-                  <div class="clearfix"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- end block-content -->
-          <!-- begin block-content -->
-          <div class="white-block center-caption ">
-                  <h2>Комментарии</h2>
+	<!-- Begin wrap -->
+	<div class="wrap">
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-4">
+						<a href="/" class="logo-link"><img src="img/logo.png" alt=""></a>
+					</div>
+					<div class="col-lg-4 col-md-8 col-sm-8">
+						<div class="search-wrapper">
+							<input type="text" class="search-input" placeholder="Поиск">
+							<button class="search-icon"></button>
+						</div>
+					</div>
+					<div class="clearfix visible-sm"></div>
+					<div class="col-lg-4 col-md-12">
+						<div class="account-block pull-left">
+							<a href="">Войти</a> / <a href="">Регистрация</a>
+						</div>
+						<div class="social-block pull-right">
+							Войти с помощью:
+							<div class="clearfix"></div>
+							<div class="social">
+								<a href=""><img src="http://placehold.it/26x26/ff6538?text= &txt= " alt=""></a>
+								<a href=""><img src="http://placehold.it/26x26/0582af?text= &txt= " alt=""></a>
+								<a href=""><img src="http://placehold.it/26x26/2f7df3?text= &txt= " alt=""></a>
+								<a href=""><img src="http://placehold.it/26x26/ff3c3d?text= &txt= " alt=""></a>
+								<a href=""><img src="http://placehold.it/26x26/068aa1?text= &txt= " alt=""></a>
+								<a href=""><img src="http://placehold.it/26x26/ff5779?text= &txt= " alt=""></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<nav id="w0" class="navbar navbar-default" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w0-collapse"><span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span></button>
+				</div>
+				<div id="w0-collapse" class="collapse navbar-collapse">
+					<ul id="w1" class="navbar-nav nav">
+						<li><a href="/frontend/web/site/planning">Планирование</a></li>
+						<li><a href="/frontend/web/site/about">Беременность</a></li>
+						<li><a href="/frontend/web/site/contact">Роды</a></li>
+						<li><a href="/frontend/web/site/about">Малыши до года</a></li>
+						<li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Детки от <b class="caret"></b></a>
+							<ul id="w2" class="dropdown-menu">
+								<li><a href="/" tabindex="-1">От 1 года до 3- лет</a></li>
+								<li><a href="#" tabindex="-1">От 3 года до 7- лет</a></li>
+								<li><a href="#" tabindex="-1">От 7 года до 12- лет</a></li>
+								<li><a href="#" tabindex="-1">Тинейджеры</a></li>
+							</ul>
+						</li>
+						<li><a href="/frontend/web/site/about">Консультации</a></li>
+						<li><a href="/frontend/web/site/about">Барахолка</a></li>
+						<li><a href="/frontend/web/site/about">Соцобъекты</a></li>
+						<li><a href="/frontend/web/site/rubric">Сообщества</a></li>
+						<li class="active"><a href="/frontend/web/site/index">Блоги</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9 article__title">
+					<!-- begin block-content -->
+					<div class="white-block">
+						<ol class="breadcrumb breadcrumb_article">
+							<li><a href="#">Главная</a></li>
+							<li><a href="#">Блоги</a></li>
+							<li class="active">Автор</li>
+						</ol>
+						<h2>Полезные вещи для маленьких путешественников и их мам</h2>
+						<p class="intresting"><span>Теги:</span>Путешествия, малыши, Полезное</p>
+						<div class="author_info">
+							<img src="img/author-ava.png" alt="">
+							<p class="intresting"><span>Автор:</span>Екатерина Савина</p>
+						</div>
+						<a href="#" class="author_commets_w pull-right">
+						Комментарии <span id="author_comments_count">17</span>
+					</a>
+						<div class="row">
+							<div class="col-lg-5">
+								<img class="pull-left margin-image img-responsive" src="img/article-img.jpg" alt="article-img">
+							</div>
+							<div class="block-content">
+								<h5>Лето — прекрасная, но такая короткая пора! </h5>
+								<p class="txt">
+									Не упускайте шанс насладиться на 100%. Наполните его яркими впечатлениями, отправляйтесь в путешествие всей семьёй.
+								</p>
+								<p class="txt">
+									Путешествие с детьми нужно спланировать тщательнее, чем обычнее. Это поможет вам меньше волноваться, а ребёнку испытывать меньший стресс. Готовьтесь к путешествию вместе, обсуждайте его с малышом, пусть в семье царит радостное предвкушение.
+								</p>
+								<p class="txt">
+									Продумайте заранее самые важные вопросы: питание малыша, его сон, способ перемещения в пространстве.
+								</p>
+								<p class="txt">
+									Обеспечить всё это в дороге легко и просто с помощью современных удобных приспособлений, которые оценили активные родители по всему миру. Образовательный портал с удовольствием делится с блогомамами хитростями, идеями и находками для детишек от 0 до года, которые сделают ваше семейное путешествие радостным и комфортным.
+								</p>
+								<h4 class="discription_text discription_text__article">Малыш 0-3 месяца</h4>
+								<p class="txt">
+									Если вы решились на путешествие в столь раннем возрасте, вас можно только поздравить. Чаще всего, несмотря на беспокойство бабушек и педиатров, такие путешествия проходят вполне благополучно, а смелость родителей вознаграждается вполне спокойным отдыхом. Ведь такому крохе ничего не надо, кроме мамы и её молочка. Выбирайте спокойные места, обеспечьте максимальный комфорт маме. Её отличное самочувствие — залог благополучия малыша.
+								</p>
+								<div class="inline_article">
+									<h5>
+									Слинг на одно плечо.
+								</h5>
+									<p class="txt">
+										В этом возрасте малыш много спит, часто ест и очень-очень нуждается в контакте с телом мамы. Чем больше – тем лучше. А если еще добавить, что в путешествии надо быть мобильным и много передвигаться, то без слинга будет обойтись трудновато. Для такого маленького ребенка самым удобным будет слинг на одно плечо и горизонтальное положение в нем. Это либо слинг с кольцами (для опытных слингомам) или ОРТОслинг (для начинающих). Заранее попрактикуйтесь, чтобы уверенно чувствовать себя в дороге.
+									</p>
+								</div>
+								<div class="inline_article">
+									<h5>
+									Непромокаемые впитывающие простыни.
+								</h5>
+									<p class="txt">
+										Чтобы не держать малыша круглосуточно в подгузниках и не испортить матрас в отеле, запаситесь заранее парочкой многоразовых непромокаемых простыней. Впитывающие простыни стелятся на кровать вместо обычной простыни, задерживают влагу и спасают вас от утомительных ночных перестиланий и утренних просушиваний матраса. Они дышащие, очень приятные к телу, тонкие, мягкие и абсолютно натуральные.
+									</p>
+								</div>
+								<div class="inline_article">
+									<h5>
+									Автокресло или транспортная система группы 0+.
+								</h5>
+									<p class="txt">
+										Транспортная система очень удобна вне зависимости от способа вашего путешествия. Автокресло пригодится вам, чтобы добраться до аэропорта на такси, его можно взять с собой в салон самолета, в поезде с ним тоже удобно. А в машине — это просто насущная необходимость.
+									</p>
+								</div>
+								<p class="txt">
+									Не забудьте укомплектовать своё автокресло или транспортную систему шторкой для сна.. Благодаря этой штуке ваш малыш будет спать крепче и дольше. И не будет просыпаться при перемещении из машины на улицу и т.д. Плюс шторка защищает от 98% вредного УФ излучения, что особенно критично в богатых солнцем регионах.
+								</p>
+								<h4 class="discription_text discription_text__article">Малыш 3-6 месяцев</h4>
+								<p class="txt">
+									Ребёнок подрастает, меньше спит, больше интересуется окружающим миром. В путешествии он теперь доставит вам немного больше хлопот. Но это все равно не повод отказываться от смены обстановки и радостных впечатлений для мамы. В этом возрасте уже можно и даже более удобно носить малыша вертикально. Поэтому вы оцените преимущества слинг- шарфа. Он равномерно распределяет нагрузку на оба маминых плеча. Можно освоить разнообразные намотки и применять их в зависимости от ситуации. Слинг с кольцами, непромокаемые простынки и транспортная система все ещё актуальны для сна малыша.
+								</p>
+								<div class="inline_article">
+									<p class="txt">
+										В этом возрасте отдых с малышами уже меньше похож на отдых в стандартном понимании этого слова. Т.е. с ползающим путешественником особо уже не расслабишься. Зато это очень весело — будет, что вспомнить долгими зимними вечерами. Если малыш уверенно сидит, пришло время для покупки новых чудесных приспособлений, облегчающих жизнь путешественникам с детьми.
+									</p>
+								</div>
+								<div class="inline_article">
+									<h5>
+										Хипсит.
+									</h5>
+									<p class="txt">
+										Хипсит — это очень удобная переноска для детей старше 6 месяцев. Хипсит сохраняет мамину осанку, а малышу дарит возможность активнее изучать мир.
+									</p>
+								</div>
+								<p class="txt">
+									Посадить малыша на хипсит и снять с него — дело наносекунды, поэтому хипситопассажиры гораздо чаще упражняются в ползании и ходьбе, чем пассажиры слингов и колясок. Хипсит расширяет малышу кругозор в прямом смысле слова: малыш сидит высоко, глядит далеко и во все стороны, ведь хипсит в отличие от слинга или эрго- рюкзачка не стесняет движений подрастающего путешественника.
+								</p>
+								<div class="inline_article">
+									<h5>Коляска-трость</h5>
+									<p class="txt">
+										Легкая и маневренная складная коляска-трость очень удобна в путешествиях. Её, как правило, можно взять в салон самолета. На неё удобно сложить вещи. Есть детки, которые по-настоящему любят свой колёсный транспорт. В таких семьях коляска- трость хорошее подспорье. Не забудьте дополнить вашу коляску шторкой для сна Снузшейд , чтобы укрыть кроху от солнца в путешествии.
+									</p>
+								</div>
+								<div class="inline_article">
+									<h5>Тотсит.</h5>
+									<p class="txt">
+										Обзаведясь тотситом с началом прикорма, вы не расстанетесь с ним лет до двух точно. Это очень удобная вещь. Тотсит – это компактный тканевый стульчик для кормления. Действительно компактный – в сложенном виде не больше подгузника. По сути, это просто тканевая накидка, которая превращает любой стул со спинкой в удобное и безопасное сидение для малыша.
+									</p>
+								</div>
+								<p class="txt">
+									Конструкция тотсита хитроумна и продумана до малейших деталей, а пользоваться им легко и просто. Теперь вам с малышом подойдет абсолютно любое кафе, которое придётся вам по душе. Даже если там нет детских стульчиков или если они все заняты. С помощью тотсита вы превратите любой стул в стульчик для кормления как по мановению волшебной палочки. Тотсит подходит для малышей, которые уже уверенно сидят. Благодаря замечательному английскому качеству ткани и фурнитуры, тотсит прослужит верой и правдой даже нескольким детям.
+								</p>
+								<div class="inline_article">
+									<p class="txt">
+										Слинг на одно плечо уже лучше заменить на эргономичный рюкзачок, а вот непромокаемые впитывающие простынки очень вам пригодятся во время ночных «аварий», особенно, если вы уже отказываетесь от подугузников. В путешествии, когда всё выбивается из привычного ритма, такие полезные штуки могут здорово облегчить маме жизнь и помочь ей насладиться отдыхом по полной программе.
+									</p>
+								</div>
+								<div class="article-bottom">
+									<div class="like-block col-lg-3 col-md-3 col-sm-3 col-xs-12 nopadd" style="margin-top: 0;">
+										<a href="" class="like active"><span class="heart heart__article">❤</span> 137</a>
+									</div>
+									<div class="social article-soc col-lg-5 col-md-5 col-xs-12 col-sm-5 col-lg-push-4 col-md-push-4
+														col-sm-push-4">
+										<span class="social-span">Поделиться</span>
+										<div style="line-height: 0; float: right;">
+											<a href=""><img src="http://placehold.it/26x26/ff6538?text= &amp;txt= " alt=""></a>
+											<a href=""><img src="http://placehold.it/26x26/0582af?text= &amp;txt= " alt=""></a>
+											<a href=""><img src="http://placehold.it/26x26/2f7df3?text= &amp;txt= " alt=""></a>
+											<a href=""><img src="http://placehold.it/26x26/ff3c3d?text= &amp;txt= " alt=""></a>
+											<a href=""><img src="http://placehold.it/26x26/068aa1?text= &amp;txt= " alt=""></a>
+											<a href=""><img src="http://placehold.it/26x26/ff5779?text= &amp;txt= " alt=""></a>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end block-content -->
+					<!-- begin block-content -->
+					<div class="white-block center-caption ">
+									<h2>Комментарии</h2>
 
-                  <div class="block-content">
-                    <div class="comments-top">
-                      <div class="clearfix"></div>
-                      <div class="col-lg-3 nopadd">17 Комментариев</div>
-                      <div class="col-lg-4 col-lg-push-5 tar norpadd">
-                        Сортировать <select class="comment-sort-select" name="" id="">
-                          <option value="old">Старые</option>
-                        </select>
-                      </div>
-                      <div class="clearfix"></div>
-                    </div>
+									<div class="block-content">
+										<div class="comments-top">
+											<div class="clearfix"></div>
+											<div class="col-lg-3 nopadd">17 Комментариев</div>
+											<div class="col-lg-4 col-lg-push-5 tar norpadd">
+												Сортировать <select class="comment-sort-select" name="" id="">
+													<option value="old">Старые</option>
+												</select>
+											</div>
+											<div class="clearfix"></div>
+										</div>
 
-                    <div class="write-comment">
-                      <div class="col-lg-2 col-md-2 nopadd" style="padding-left: 0;padding-right: 0;">
-                        <a href="" style="float: left; width: 110px;"><img src="http://placehold.it/95x95/ff5779?text= &amp;txt= " alt=""></a>
-                      </div>
-                      <div class="col-lg-10 col-md-10 nopadd" style="padding-right: 0;">
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                      </div>
+										<div class="write-comment">
+											<div class="col-lg-2 col-md-2 nopadd" style="padding-left: 0;padding-right: 0;">
+												<a href="" style="float: left; width: 110px;"><img src="http://placehold.it/95x95/ff5779?text= &amp;txt= " alt=""></a>
+											</div>
+											<div class="col-lg-10 col-md-10 nopadd" style="padding-right: 0;">
+												<textarea name="" id="" cols="30" rows="10"></textarea>
+											</div>
 
-                      <button class="pull-right send-comment">Комментировать</button>
-                    </div>
+											<button class="pull-right send-comment">Комментировать</button>
+										</div>
 
-                    <div class="clearfix"></div>
+										<div class="clearfix"></div>
 
-                    <div class="comments-list">
-
-
-
-          <!--  comment-item-->
-                      <div class="comment-item">
-                        <div class="col-lg-2 col-md-2 nopadd" style="padding-left: 0;padding-right: 0;">
-                          <a href="" style="float: left; width: 110px;"><img src="http://placehold.it/95x95/ffdce3?text= &amp;txt= " alt=""></a>
-                        </div>
-                        <div class="col-lg-10 col-md-10 nopadd" style="padding-right: 0;">
-                          <div class="top">
-                            <a href="" class="comment-author">Ирина</a>
-                            <span class="comment-city">Уфа</span>
-                            <span class="comment-date">13.09.2016</span>
-                          </div>
-                          <div class="text">
-                            Девочки, подскажите , кто этим летом путешествовал на Юг? У мужа командировка на
-                            неделю в ... , 21 едем с малым ( 9 месяцев ), читаю отзывы, один негатив, выбора нет,
-                            а хочется отдохнуть без неприятностей. К чему готовиться, будем жить в пансионате.
-                            Там действительно все ужасно с водой и питанием?
-                          </div>
-                          <div class="bottom col-lg-3 nopadd">
-                            <a href="" class="like active"><span class="heart heart__article">❤</span> 3</a>
-                            <a href="" class="danger">Пожаловаться</a>
-                          </div>
-                          <div class="bottom col-lg-8 col-lg-offset-1" style="padding-left: 0;padding-right: 0;     text-align: right;">
-                            <a href="" class="comment-number">#1</a>
-                            <a href="" class="my-like">Мне нравится</a>&nbsp;
-                            <a href="" class="get-nick">Ник в ответ</a>&nbsp;
-                            <a href="" class="my-answer">Ответить</a>
-                          </div>
-                        </div>
-                      </div>
-          <!--  comment-item-->
-
-
-          <!--  comment-item-->
-                      <div class="comment-item">
-                        <div class="col-lg-2 col-md-2 nopadd" style="padding-left: 0;padding-right: 0;">
-                          <a href="" style="float: left; width: 110px;"><img src="http://placehold.it/95x95/ffdce3?text= &amp;txt= " alt=""></a>
-                        </div>
-                        <div class="col-lg-10 col-md-10 nopadd" style="padding-right: 0;">
-                          <div class="top">
-                            <a href="" class="comment-author">Лера</a>
-                            <span class="comment-city">Пермь</span>
-                            <span class="comment-date">14.09.2016</span>
-                          </div>
-                          <div class="quote">
-                            <div class="quote-info">
-                              <a href="" class="comment-author">Лера</a>
-                              <span class="comment-city">Пермь</span>
-                            </div>
-                            Девочки, подскажите , кто этим летом путешествовал на Юг?..
-                          </div>
-                          <div class="text">
-                            Девочки, подскажите , кто этим летом путешествовал на Юг? У мужа командировка на
-                            неделю в ... , 21 едем с малым ( 9 месяцев ), читаю отзывы, один негатив, выбора нет,
-                            а хочется отдохнуть без неприятностей. К чему готовиться, будем жить в пансионате.
-                            Там действительно все ужасно с водой и питанием?
-                          </div>
-                          <div class="bottom col-lg-3 nopadd">
-                            <a href="" class="like active"><span class="heart heart__article">❤</span> 11</a>
-                            <a href="" class="danger">Пожаловаться</a>
-                          </div>
-                          <div class="bottom col-lg-8 col-lg-offset-1" style="padding-left: 0;padding-right: 0;     text-align: right;">
-                            <a href="" class="comment-number">#2</a>
-                            <a href="" class="my-like">Мне нравится</a>&nbsp;
-                            <a href="" class="get-nick">Ник в ответ</a>&nbsp;
-                            <a href="" class="my-answer">Ответить</a>
-                          </div>
-                        </div>
-                      </div>
-          <!--  comment-item-->
+										<div class="comments-list">
 
 
 
+					<!--  comment-item-->
+											<div class="comment-item">
+												<div class="col-lg-2 col-md-2 nopadd" style="padding-left: 0;padding-right: 0;">
+													<a href="" style="float: left; width: 110px;"><img src="http://placehold.it/95x95/ffdce3?text= &amp;txt= " alt=""></a>
+												</div>
+												<div class="col-lg-10 col-md-10 nopadd" style="padding-right: 0;">
+													<div class="top">
+														<a href="" class="comment-author">Ирина</a>
+														<span class="comment-city">Уфа</span>
+														<span class="comment-date">13.09.2016</span>
+													</div>
+													<div class="text">
+														Девочки, подскажите , кто этим летом путешествовал на Юг? У мужа командировка на
+														неделю в ... , 21 едем с малым ( 9 месяцев ), читаю отзывы, один негатив, выбора нет,
+														а хочется отдохнуть без неприятностей. К чему готовиться, будем жить в пансионате.
+														Там действительно все ужасно с водой и питанием?
+													</div>
+													<div class="bottom col-lg-3 nopadd">
+														<a href="" class="like active"><span class="heart heart__article">❤</span> 3</a>
+														<a href="" class="danger">Пожаловаться</a>
+													</div>
+													<div class="bottom col-lg-8 col-lg-offset-1" style="padding-left: 0;padding-right: 0;     text-align: right;">
+														<a href="" class="comment-number">#1</a>
+														<a href="" class="my-like">Мне нравится</a>&nbsp;
+														<a href="" class="get-nick">Ник в ответ</a>&nbsp;
+														<a href="" class="my-answer">Ответить</a>
+													</div>
+												</div>
+											</div>
+					<!--  comment-item-->
 
-                    </div>
 
-                    <div class="more-posts">
-                      <a href="" class="append-posts">Посмотреть всё</a>
-                    </div>
+					<!--  comment-item-->
+											<div class="comment-item">
+												<div class="col-lg-2 col-md-2 nopadd" style="padding-left: 0;padding-right: 0;">
+													<a href="" style="float: left; width: 110px;"><img src="http://placehold.it/95x95/ffdce3?text= &amp;txt= " alt=""></a>
+												</div>
+												<div class="col-lg-10 col-md-10 nopadd" style="padding-right: 0;">
+													<div class="top">
+														<a href="" class="comment-author">Лера</a>
+														<span class="comment-city">Пермь</span>
+														<span class="comment-date">14.09.2016</span>
+													</div>
+													<div class="quote">
+														<div class="quote-info">
+															<a href="" class="comment-author">Лера</a>
+															<span class="comment-city">Пермь</span>
+														</div>
+														Девочки, подскажите , кто этим летом путешествовал на Юг?..
+													</div>
+													<div class="text">
+														Девочки, подскажите , кто этим летом путешествовал на Юг? У мужа командировка на
+														неделю в ... , 21 едем с малым ( 9 месяцев ), читаю отзывы, один негатив, выбора нет,
+														а хочется отдохнуть без неприятностей. К чему готовиться, будем жить в пансионате.
+														Там действительно все ужасно с водой и питанием?
+													</div>
+													<div class="bottom col-lg-3 nopadd">
+														<a href="" class="like active"><span class="heart heart__article">❤</span> 11</a>
+														<a href="" class="danger">Пожаловаться</a>
+													</div>
+													<div class="bottom col-lg-8 col-lg-offset-1" style="padding-left: 0;padding-right: 0;     text-align: right;">
+														<a href="" class="comment-number">#2</a>
+														<a href="" class="my-like">Мне нравится</a>&nbsp;
+														<a href="" class="get-nick">Ник в ответ</a>&nbsp;
+														<a href="" class="my-answer">Ответить</a>
+													</div>
+												</div>
+											</div>
+					<!--  comment-item-->
 
-                    <div class="clearfix"></div>
 
 
-                  </div>
 
-                </div>
-          <!-- end block-content -->
-          <!-- begin block content -->
-            <div class="white-block center-caption ">
-                    <h2>Питаемся правильно</h2>
+										</div>
 
-                    <div class="block-content flex4 mt">
-                      <a href="">
-                        <img src="http://placehold.it/173x173/e6e6e6" alt="">
-                        <div class="descr">Рулетики из куриной грудки в сырном соусе</div>
-                      </a>
-                      <a href="">
-                        <img src="http://placehold.it/173x173/e6e6e6" alt="">
-                        <div class="descr">Рулетики из куриной грудки в сырном соусе</div>
+										<div class="more-posts">
+											<a href="" class="append-posts">Посмотреть всё</a>
+										</div>
 
-                      </a>
-                      <a href="">
-                        <img src="http://placehold.it/173x173/e6e6e6" alt="">
-                        <div class="descr">Рулетики из куриной грудки в сырном соусе</div>
-                      </a>
-                      <a href="">
-                        <img src="http://placehold.it/173x173/e6e6e6" alt="">
-                        <div class="descr">Рулетики из куриной грудки в сырном соусе</div>
-                      </a>
-                    </div>
-                    <div class="clearfix" style="margin-top: 16px;">
-                      <a href="" class="show-all-posts pull-right">Смотреть всё</a>
-                    </div>
-                  </div>
-          <!-- end block content -->
-          <!-- begin block-content -->
-          <div class="white-block center-caption ">
-                  <h2>Фото из галереи</h2>
-                  <div class="block-content flex5 mt">
-                    <a href="">
-                      <img src="http://placehold.it/150x150/e6e6e6" alt="">
-                    </a>
-                    <a href="">
-                      <img src="http://placehold.it/150x150/e6e6e6" alt="">
-                    </a>
-                    <a href="">
-                      <img src="http://placehold.it/150x150/e6e6e6" alt="">
-                    </a>
-                    <a href="">
-                      <img src="http://placehold.it/150x150/e6e6e6" alt="">
-                    </a>
-                    <a href="">
-                      <img src="http://placehold.it/150x150/e6e6e6" alt="">
-                    </a>
-                  </div>
-                  <div class="clearfix" style="margin-top: 16px;">
-                    <a href="" class="show-all-posts pull-right">Смотреть всё</a>
-                  </div>
-                </div>
-          <!-- end block content -->
-        </div>
-        <aside class="col-lg-3 sidebar sidebar__mams ">
-          
-        
-        <a href="#" class="object_sidebar_link"><img src="img/sidebar-img1.png" alt="" class="sidebar_img"></a>
-        <a href="#" class="object_sidebar_link"><img src="img/sidebar-img2.png" alt="" class="sidebar_img"></a>
-        <a href="#" class="object_sidebar_link"><img src="img/sidebar-img3.png" alt="" class="sidebar_img"></a>
-       <!--  begin vertical gallery 1 -->
-        <div class="white-block vert_slider_blogs">
-          <h2 class="title3 text-center">Популярные блоггеры</h2>
-          <a href="#" id="ui-carousel-next" class="prev2"></a>
-          <ul id="carousel" class="vertical-carousel2">
-            <li>
-              <a href="#">
-                <img src="img/vslider1.png" alt="">
-                <div class="desc">Елена К.</div>
-              </a>
-              <a href="#">
-                <img src="img/vslider2.png" alt="">
-                <div class="desc">Альбина С.</div>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="img/vslider3.png" alt="">
-                <div class="desc">Наталья Ивановна</div>
-              </a>
-              <a href="#">
-                <img src="img/vslider4.png" alt="">
-                <div class="desc">Светлана П</div>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="img/vslider5.png" alt="">
-                <div class="desc">Ольга Ю.</div>
-              </a>
-              <a href="#">
-                <img src="img/vslider6.png" alt="">
-                <div class="desc">Валерия О.</div>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="img/vslider7.png" alt="">
-                <div class="desc">Катерина К.</div>
-              </a>
-              <a href="#">
-                <img src="img/vslider8.png" alt="">
-                <div class="desc">Соня Ф.</div>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="img/vslider1.png" alt="">
-                <div class="desc">Елена К.</div>
-              </a>
-              <a href="#">
-                <img src="img/vslider2.png" alt="">
-                <div class="desc">Альбина С.</div>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="img/vslider3.png" alt="">
-                <div class="desc">Наталья Ивановна</div>
-              </a>
-              <a href="#">
-                <img src="img/vslider4.png" alt="">
-                <div class="desc">Светлана П</div>
-              </a>
-            </li>
-          </ul>
-          <a href="#" id="ui-carousel-prev" class="next2"></a>
-        </div>
-         <!--  end vertical gallery 1 -->
-        <a href="#" class="object_sidebar_link"><img src="img/sidebar-img1.png" alt="" class="sidebar_img"></a>
-        <!-- begin vertical slider2 -->
-        <div class="white-block vert_slider_blogs">
-          <h2 class="title3 text-center">Наши группы</h2>
-          <a href="#" id="ui-carousel-next" class="prev3"></a>
-          <ul id="carousel" class="vertical-carousel3">
-            <li>
-              <a href="#">
-                <img src="img/slide-group1.png" alt="">
-                <div class="desc">Здоровье мамы (общее)</div>
-              </a>
-              <a href="#">
-                <img src="img/slide-group2.png" alt="">
-                <div class="desc">Хотим малыша</div>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="img/slide-group3.png" alt="">
-                <div class="desc">Беременность и спорт</div>
-              </a>
-              <a href="#">
-                <img src="img/slide-group4.png" alt="">
-                <div class="desc">Собираемся в роддом</div>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="img/slide-group5.png" alt="">
-                <div class="desc">Поделись с подругами</div>
-              </a>
-              <a href="#">
-                <img src="img/slide-group6.png" alt="">
-                <div class="desc">Лечение и прием препаратов</div>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="img/slide-group7.png" alt="">
-                <div class="desc">Усыновление</div>
-              </a>
-              <a href="#">
-                <img src="img/slide-group8.png" alt="">
-                <div class="desc">Питание до 1 года</div>
-              </a>
-            </li>
-            <li>
-                <a href="#">
-                  <img src="img/slide-group5.png" alt="">
-                  <div class="desc">Поделись с подругами</div>
-                </a>
-                <a href="#">
-                  <img src="img/slide-group6.png" alt="">
-                  <div class="desc">Лечение и прием препаратов</div>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="img/slide-group7.png" alt="">
-                  <div class="desc">Усыновление</div>
-                </a>
-                <a href="#">
-                  <img src="img/slide-group8.png" alt="">
-                  <div class="desc">Питание до 1 года</div>
-                </a>
-              </li>
-          </ul>
-          <a href="#" id="ui-carousel-prev" class="next3"></a>
-        </div>
-      
-        <!-- end verical gallery 2 -->
-        <a href="#" class="object_sidebar_link"><img src="img/sidebar-img2.png" alt="" class="sidebar_img"></a>
-        <a href="#" class="object_sidebar_link"><img src="img/sidebar-img3.png" alt="" class="sidebar_img"></a>
-        <div class="center-caption white-block coz-opros">
-                <h2>Опрос</h2>
-                <div class="block-content ">
+										<div class="clearfix"></div>
 
-                  <div class="opros-title">
-                    Какие места вы посещаете чаще всего?
-                  </div>
 
-                  <div class="variants">
-                    <label><input type="radio" name="vars" id="">Роддома</label>
-                    <label><input type="radio" name="vars" id="">Детские больницы</label>
-                    <label><input type="radio" name="vars" id="">Медцентры</label>
-                    <label><input type="radio" name="vars" id="">Деская кухня</label>
-                    <label><input type="radio" name="vars" id="">Женские консультации</label>
-                    <label><input type="radio" name="vars" id="">Админобъекты</label>
-                  </div>
+									</div>
 
-                  <div class="text-center opros-buttons">
-                    <a href="">Голосовать</a>&nbsp;
-                    <a href="">Результаты</a>
-                  </div>
+								</div>
+					<!-- end block-content -->
+					<!-- begin block content -->
+						<div class="white-block center-caption ">
+										<h2>Питаемся правильно</h2>
 
-                </div>
-              </div>
-        </aside>
-      </div>
-    </div>
-  </div>
-  </div>
-  <!-- Begin footer -->
-  <footer>
-    <a href="" class="rocket">Вверх</a>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-3">
-          <a href="/" class="logo-mini">
-            <img src="img/logo-mini.png" alt=""> <span>&copy; All right reserved</span>
-          </a>
-        </div>
-        <div class="col-lg-7 col-md-7">
-          <ul>
-            <li><span class="col-title">Меню 1</span></li>
-            <li><a href="">Планирование</a></li>
-            <li><a href="">Беременность</a></li>
-            <li><a href="">Роды</a></li>
-            <li><a href="">Малыши до года</a></li>
-          </ul>
-          <ul>
-            <li><span class="col-title">Меню 2</span></li>
-            <li><a href="">От 1 до 3</a></li>
-            <li><a href="">От 3 до 7</a></li>
-            <li><a href="">От 7 до 12</a></li>
-            <li><a href="">Тинейджеры</a></li>
-          </ul>
-          <ul>
-            <li><span class="col-title">Меню 3</span></li>
-            <li><a href="">Форум</a></li>
-            <li><a href="">Фотоальбом</a></li>
-            <li><a href="">Объявления</a></li>
-            <li><a href="">Блоги</a></li>
-          </ul>
-          <ul>
-            <li><span class="col-title">Меню 4</span></li>
-            <li><a href="">Статьи</a></li>
-            <li><a href="">Консультации</a></li>
-            <li><a href="">Социальные объекты</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-2 col-md-2">
-          <div class="footer-info">
-            <a href="" class="in-site pull-right">Реклама на сайте ></a>
-            <div class="clearfix"></div>
-            <span class="we-here">Мы здесь:</span>
-            <div class="social">
-              <a href=""><img src="http://placehold.it/26x26/ff6538?text= &txt= " alt=""></a>
-              <a href=""><img src="http://placehold.it/26x26/0582af?text= &txt= " alt=""></a>
-              <a href=""><img src="http://placehold.it/26x26/2f7df3?text= &txt= " alt=""></a>
-              <a href=""><img src="http://placehold.it/26x26/ff3c3d?text= &txt= " alt=""></a>
-              <a href=""><img src="http://placehold.it/26x26/068aa1?text= &txt= " alt=""></a>
-              <a href=""><img src="http://placehold.it/26x26/ff5779?text= &txt= " alt=""></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- <script src="js/jquery-3.1.1.min.js"></script> -->
-  <script src="js/jquery.js"></script>
-  <script src="https://yastatic.net/jquery-ui/1.11.2/jquery-ui.min.js"></script>
-  <script src="js/yii.js"></script>
-  <script src="js/jquery.ui.widget.min.js"></script>
-  <script src="js/jquery.ui.rcarousel.min.js"></script>
-  <script src="js/jquery.ui.core.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script src="js/main.js"></script>
-  <script>
-  jQuery(function($) {
-    $('.vertical-carousel2').rcarousel({
-      orientation: 'vertical',
-      visible: 4,
-      step: 1,
-      width: 225,
-      height: 144,
-      loop: true,
-      // auto: {enabled: true},
-      navigation: {
-        prev: ".prev2",
-        next: ".next2"
-      },
-    });
-    $('.vertical-carousel3').rcarousel({
-      orientation: 'vertical',
-      visible: 4,
-      step: 1,
-      width: 225,
-      height: 144,
-      loop: true,
-      // auto: {enabled: true},
-      navigation: {
-        prev: ".prev3",
-        next: ".next3"
-      },
-    });
-  });
-  </script>
+										<div class="block-content flex4 mt">
+											<a href="">
+												<img src="http://placehold.it/173x173/e6e6e6" alt="">
+												<div class="descr">Рулетики из куриной грудки в сырном соусе</div>
+											</a>
+											<a href="">
+												<img src="http://placehold.it/173x173/e6e6e6" alt="">
+												<div class="descr">Рулетики из куриной грудки в сырном соусе</div>
+
+											</a>
+											<a href="">
+												<img src="http://placehold.it/173x173/e6e6e6" alt="">
+												<div class="descr">Рулетики из куриной грудки в сырном соусе</div>
+											</a>
+											<a href="">
+												<img src="http://placehold.it/173x173/e6e6e6" alt="">
+												<div class="descr">Рулетики из куриной грудки в сырном соусе</div>
+											</a>
+										</div>
+										<div class="clearfix" style="margin-top: 16px;">
+											<a href="" class="show-all-posts pull-right">Смотреть всё</a>
+										</div>
+									</div>
+					<!-- end block content -->
+					<!-- begin block-content -->
+					<div class="white-block center-caption ">
+									<h2>Фото из галереи</h2>
+									<div class="block-content flex5 mt">
+										<a href="">
+											<img src="http://placehold.it/150x150/e6e6e6" alt="">
+										</a>
+										<a href="">
+											<img src="http://placehold.it/150x150/e6e6e6" alt="">
+										</a>
+										<a href="">
+											<img src="http://placehold.it/150x150/e6e6e6" alt="">
+										</a>
+										<a href="">
+											<img src="http://placehold.it/150x150/e6e6e6" alt="">
+										</a>
+										<a href="">
+											<img src="http://placehold.it/150x150/e6e6e6" alt="">
+										</a>
+									</div>
+									<div class="clearfix" style="margin-top: 16px;">
+										<a href="" class="show-all-posts pull-right">Смотреть всё</a>
+									</div>
+								</div>
+					<!-- end block content -->
+				</div>
+				<aside class="col-lg-3 sidebar sidebar__mams ">
+					
+				
+				<a href="#" class="object_sidebar_link"><img src="img/sidebar-img1.png" alt="" class="sidebar_img"></a>
+				<a href="#" class="object_sidebar_link"><img src="img/sidebar-img2.png" alt="" class="sidebar_img"></a>
+				<a href="#" class="object_sidebar_link"><img src="img/sidebar-img3.png" alt="" class="sidebar_img"></a>
+			 <!--  begin vertical gallery 1 -->
+				<div class="white-block vert_slider_blogs">
+					<h2 class="title3 text-center">Популярные блоггеры</h2>
+					<a href="#" id="ui-carousel-next" class="prev2"></a>
+					<ul id="carousel" class="vertical-carousel2">
+						<li>
+							<a href="#">
+								<img src="img/vslider1.png" alt="">
+								<div class="desc">Елена К.</div>
+							</a>
+							<a href="#">
+								<img src="img/vslider2.png" alt="">
+								<div class="desc">Альбина С.</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/vslider3.png" alt="">
+								<div class="desc">Наталья Ивановна</div>
+							</a>
+							<a href="#">
+								<img src="img/vslider4.png" alt="">
+								<div class="desc">Светлана П</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/vslider5.png" alt="">
+								<div class="desc">Ольга Ю.</div>
+							</a>
+							<a href="#">
+								<img src="img/vslider6.png" alt="">
+								<div class="desc">Валерия О.</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/vslider7.png" alt="">
+								<div class="desc">Катерина К.</div>
+							</a>
+							<a href="#">
+								<img src="img/vslider8.png" alt="">
+								<div class="desc">Соня Ф.</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/vslider1.png" alt="">
+								<div class="desc">Елена К.</div>
+							</a>
+							<a href="#">
+								<img src="img/vslider2.png" alt="">
+								<div class="desc">Альбина С.</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/vslider3.png" alt="">
+								<div class="desc">Наталья Ивановна</div>
+							</a>
+							<a href="#">
+								<img src="img/vslider4.png" alt="">
+								<div class="desc">Светлана П</div>
+							</a>
+						</li>
+					</ul>
+					<a href="#" id="ui-carousel-prev" class="next2"></a>
+				</div>
+				 <!--  end vertical gallery 1 -->
+				<a href="#" class="object_sidebar_link"><img src="img/sidebar-img1.png" alt="" class="sidebar_img"></a>
+				<!-- begin vertical slider2 -->
+				<div class="white-block vert_slider_blogs">
+					<h2 class="title3 text-center">Наши группы</h2>
+					<a href="#" id="ui-carousel-next" class="prev3"></a>
+					<ul id="carousel" class="vertical-carousel3">
+						<li>
+							<a href="#">
+								<img src="img/slide-group1.png" alt="">
+								<div class="desc">Здоровье мамы (общее)</div>
+							</a>
+							<a href="#">
+								<img src="img/slide-group2.png" alt="">
+								<div class="desc">Хотим малыша</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/slide-group3.png" alt="">
+								<div class="desc">Беременность и спорт</div>
+							</a>
+							<a href="#">
+								<img src="img/slide-group4.png" alt="">
+								<div class="desc">Собираемся в роддом</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/slide-group5.png" alt="">
+								<div class="desc">Поделись с подругами</div>
+							</a>
+							<a href="#">
+								<img src="img/slide-group6.png" alt="">
+								<div class="desc">Лечение и прием препаратов</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/slide-group7.png" alt="">
+								<div class="desc">Усыновление</div>
+							</a>
+							<a href="#">
+								<img src="img/slide-group8.png" alt="">
+								<div class="desc">Питание до 1 года</div>
+							</a>
+						</li>
+						<li>
+								<a href="#">
+									<img src="img/slide-group5.png" alt="">
+									<div class="desc">Поделись с подругами</div>
+								</a>
+								<a href="#">
+									<img src="img/slide-group6.png" alt="">
+									<div class="desc">Лечение и прием препаратов</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/slide-group7.png" alt="">
+									<div class="desc">Усыновление</div>
+								</a>
+								<a href="#">
+									<img src="img/slide-group8.png" alt="">
+									<div class="desc">Питание до 1 года</div>
+								</a>
+							</li>
+					</ul>
+					<a href="#" id="ui-carousel-prev" class="next3"></a>
+				</div>
+			
+				<!-- end verical gallery 2 -->
+				<a href="#" class="object_sidebar_link"><img src="img/sidebar-img2.png" alt="" class="sidebar_img"></a>
+				<a href="#" class="object_sidebar_link"><img src="img/sidebar-img3.png" alt="" class="sidebar_img"></a>
+				<div class="center-caption white-block coz-opros">
+								<h2>Опрос</h2>
+								<div class="block-content ">
+
+									<div class="opros-title">
+										Какие места вы посещаете чаще всего?
+									</div>
+
+									<div class="variants">
+										<label><input type="radio" name="vars" id="">Роддома</label>
+										<label><input type="radio" name="vars" id="">Детские больницы</label>
+										<label><input type="radio" name="vars" id="">Медцентры</label>
+										<label><input type="radio" name="vars" id="">Деская кухня</label>
+										<label><input type="radio" name="vars" id="">Женские консультации</label>
+										<label><input type="radio" name="vars" id="">Админобъекты</label>
+									</div>
+
+									<div class="text-center opros-buttons">
+										<a href="">Голосовать</a>&nbsp;
+										<a href="">Результаты</a>
+									</div>
+
+								</div>
+							</div>
+				</aside>
+			</div>
+		</div>
+	</div>
+	</div>
+	<!-- Begin footer -->
+	<footer>
+		<a href="" class="rocket">Вверх</a>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3">
+					<a href="/" class="logo-mini">
+						<img src="img/logo-mini.png" alt=""> <span>&copy; All right reserved</span>
+					</a>
+				</div>
+				<div class="col-lg-7 col-md-7">
+					<ul>
+						<li><span class="col-title">Меню 1</span></li>
+						<li><a href="">Планирование</a></li>
+						<li><a href="">Беременность</a></li>
+						<li><a href="">Роды</a></li>
+						<li><a href="">Малыши до года</a></li>
+					</ul>
+					<ul>
+						<li><span class="col-title">Меню 2</span></li>
+						<li><a href="">От 1 до 3</a></li>
+						<li><a href="">От 3 до 7</a></li>
+						<li><a href="">От 7 до 12</a></li>
+						<li><a href="">Тинейджеры</a></li>
+					</ul>
+					<ul>
+						<li><span class="col-title">Меню 3</span></li>
+						<li><a href="">Форум</a></li>
+						<li><a href="">Фотоальбом</a></li>
+						<li><a href="">Объявления</a></li>
+						<li><a href="">Блоги</a></li>
+					</ul>
+					<ul>
+						<li><span class="col-title">Меню 4</span></li>
+						<li><a href="">Статьи</a></li>
+						<li><a href="">Консультации</a></li>
+						<li><a href="">Социальные объекты</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-md-2">
+					<div class="footer-info">
+						<a href="" class="in-site pull-right">Реклама на сайте ></a>
+						<div class="clearfix"></div>
+						<span class="we-here">Мы здесь:</span>
+						<div class="social">
+							<a href=""><img src="http://placehold.it/26x26/ff6538?text= &txt= " alt=""></a>
+							<a href=""><img src="http://placehold.it/26x26/0582af?text= &txt= " alt=""></a>
+							<a href=""><img src="http://placehold.it/26x26/2f7df3?text= &txt= " alt=""></a>
+							<a href=""><img src="http://placehold.it/26x26/ff3c3d?text= &txt= " alt=""></a>
+							<a href=""><img src="http://placehold.it/26x26/068aa1?text= &txt= " alt=""></a>
+							<a href=""><img src="http://placehold.it/26x26/ff5779?text= &txt= " alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- <script src="js/jquery-3.1.1.min.js"></script> -->
+	<script src="js/jquery.js"></script>
+	<script src="https://yastatic.net/jquery-ui/1.11.2/jquery-ui.min.js"></script>
+	<script src="js/yii.js"></script>
+	<script src="js/jquery.ui.widget.min.js"></script>
+	<script src="js/jquery.ui.rcarousel.min.js"></script>
+	<script src="js/jquery.ui.core.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+	jQuery(function($) {
+		$('.vertical-carousel2').rcarousel({
+			orientation: 'vertical',
+			visible: 4,
+			step: 1,
+			width: 225,
+			height: 144,
+			loop: true,
+			// auto: {enabled: true},
+			navigation: {
+				prev: ".prev2",
+				next: ".next2"
+			},
+		});
+		$('.vertical-carousel3').rcarousel({
+			orientation: 'vertical',
+			visible: 4,
+			step: 1,
+			width: 225,
+			height: 144,
+			loop: true,
+			// auto: {enabled: true},
+			navigation: {
+				prev: ".prev3",
+				next: ".next3"
+			},
+		});
+	});
+	</script>
 </body>
 
 </html>

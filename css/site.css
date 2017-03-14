@@ -985,7 +985,7 @@ input.date {
 .verticalcar .desc {
   font-size: 15px;
   color: #068aa1;
-  font-weight: 300;
+  w: 300;
   margin-top: 14px;
 }
 .vertical-carousel .wrapper li,
@@ -3575,7 +3575,8 @@ label[for="my_check2"] {
 .gallery_list_events .flex4 {
   margin-bottom: 35px;
 }
-.fresh_photo .events_item {
+.fresh_photo .events_item,
+.album_selected_gal .events_item {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -3584,13 +3585,15 @@ label[for="my_check2"] {
   flex-direction: column;
   flex-basis: 190px;
 }
-.fresh_photo .like {
+.fresh_photo .like,
+.album_selected_gal .like {
   margin-top: 10px;
 }
 .fresh_photo .heart {
   font-size: 22px;
 }
-.fresh_photo .heart:before {
+.fresh_photo .heart:before,
+.album_selected_gal .heart:before {
   display: none;
 }
 .fresh_addition {
@@ -3694,9 +3697,39 @@ label[for="my_check2"] {
   margin: 0 auto;
 }
 .slick__list {
+  /* End page gallery_list		
+/* End Denis CSS */
 }
 .slick__list span {
   display: block !important;
 }
-/* End page gallery_list		
-/* End Denis CSS: blogmamy_blogs, blogmamy_blogs_article, cabinet-media, gallery_list  */
+/* begin album selected */
+.album_selected__box {
+  clear: both;
+  display: block;
+}
+.album_selected__box label {
+  font-weight: 300;
+  display: inline-block;
+}
+.album_selected__box .show_more {
+  margin-bottom: 5px;
+  margin-top: 40px;
+}
+.album_selected__box .show_more .show_more_action {
+  font-weight: 300;
+}
+.album_selected__box:after {
+  display: table;
+  clear: both;
+  content: '';
+}
+.album_selected_gal .pages {
+  margin: 40px 0 25px;
+}
+.album_selected_gal .like {
+  text-align: left;
+}
+.user_info + p {
+  margin-top: 15px;
+}

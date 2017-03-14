@@ -1143,7 +1143,7 @@ input.date {
 .vertical-carousel .desc, .verticalcar .desc {
 		font-size: 15px;
 		color: #068aa1;
-		font-weight: 300;
+		w: 300;
 		margin-top: 14px;
 }
 
@@ -3871,7 +3871,7 @@ label[for="my_check2"] {
 .gallery_list_events .flex4 {
 	margin-bottom: 35px;
 }
-.fresh_photo .events_item {
+.fresh_photo .events_item, .album_selected_gal .events_item {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -3880,13 +3880,13 @@ label[for="my_check2"] {
 	flex-direction: column;
 	flex-basis: 190px;
 }
-.fresh_photo .like {
+.fresh_photo .like, .album_selected_gal .like{
 	margin-top: 10px;
 }
 .fresh_photo .heart {
 	font-size: 22px;
 }
-.fresh_photo .heart:before {
+.fresh_photo .heart:before, .album_selected_gal .heart:before {
 	display: none;
 }
 .fresh_addition {
@@ -3996,4 +3996,30 @@ label[for="my_check2"] {
 		}
 /* End page gallery_list		
 /* End Denis CSS */
+}
+/* begin album selected */
+.album_selected__box {
+	label {
+		font-weight: 300;
+		display: inline-block;
+	}
+	.show_more {
+		margin-bottom:  5px;
+		margin-top: 40px;
+		.show_more_action {
+			font-weight: 300;
+		}
+	}
+	.clearfix;
+}
+.album_selected_gal {	
+	.pages {
+		margin: 40px 0 25px;
+	}
+	.like {
+		text-align: left;
+	}
+}
+.user_info+p {
+	margin-top: 15px;
 }
