@@ -647,6 +647,9 @@ h2.no {
   font-weight: 300;
   text-transform: lowercase;
 }
+.show-all-posts:hover {
+  text-decoration: none; 
+}
 .recent-items .item-title {
   text-decoration: none !important;
   font-weight: 300;
@@ -1128,6 +1131,7 @@ input.r {
   font-size: 15px;
   margin: 8px 0;
 }
+// banner
 .middle-banner {
   display: inline-block;
   margin: 10px 0;
@@ -2436,6 +2440,10 @@ input.q {
 .user_name {
   color: #068aa1;
   margin-bottom: 10px;
+}
+.user_name:hover {
+ cursor: pointer;
+ text-decoration: none;
 }
 .time_ago {
   color: #949c9f;
@@ -3754,4 +3762,52 @@ label[for="my_check2"] {
 }
 .consultation_w .col-sm-12 {
   margin: 10px 0;
+}
+.mid-banner{
+    background-image: url(../images/banner-planning.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 170px;
+}
+.mid-banner{
+    margin: 20px;
+}
+.mid-banner_left{
+    max-width: 255px;
+    display: inline-block;
+    text-align: center;
+}
+.mid-banner_left p{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 38px;
+}
+.mid-banner_left span{
+    color: white;
+    font-family: "Bad Script";
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 42px;
+    margin-bottom: 25px;
+    display: block;
+}
+.mid-banner_left button{
+    width: 180px;
+    height: 37px;
+    background-color: #0bb1ce;
+    border: none;
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 10px;
+}
+.mid-banner_right{
+    display: inline-block;
+    padding-right: 20px;
+}
+.mid-banner_right img{
+  margin-left: 20px;
+  margin-top: 20px;
 }
