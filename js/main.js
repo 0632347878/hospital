@@ -142,22 +142,22 @@ jQuery(document).ready(function () {
         }
     });
 
-    $(".slider").slider({
-        range: true,
-        min: 18,
-        max: 100,
-        values: [ 18, 80 ],
-        slide: function( event, ui ) {
-            var values = $(".slider").slider( "option", "values" );
-            $( "#slider-result-1" ).html(values[0] + ' лет');
-            $( "#slider-result-2" ).html(values[1] + ' лет');
-        },
-        change: function(event, ui) {
-            var values = $(".slider").slider( "option", "values" );
-            $( "#slider-result-1" ).html(values[0] + ' лет');
-            $( "#slider-result-2" ).html(values[1] + ' лет');
-        }
-    });
+    // $(".slider").slider({
+    //     range: true,
+    //     min: 18,
+    //     max: 100,
+    //     values: [ 18, 80 ],
+    //     slide: function( event, ui ) {
+    //         var values = $(".slider").slider( "option", "values" );
+    //         $( "#slider-result-1" ).html(values[0] + ' лет');
+    //         $( "#slider-result-2" ).html(values[1] + ' лет');
+    //     },
+    //     change: function(event, ui) {
+    //         var values = $(".slider").slider( "option", "values" );
+    //         $( "#slider-result-1" ).html(values[0] + ' лет');
+    //         $( "#slider-result-2" ).html(values[1] + ' лет');
+    //     }
+    // });
 
       $('.vertical-carousel2').rcarousel({
         orientation: 'vertical',

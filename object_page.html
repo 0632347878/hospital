@@ -8,11 +8,12 @@
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>Блог Мымы</title>
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/rcarousel.css">
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="css/media.css">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -26,7 +27,7 @@
     <div class="row">
       <div class="col-md-9 col-sm-8 clearfix object_main_w">
         <div class="card_w">
-          <ol class="breadcrumb breadcrumb__object">
+          <ol class="breadcrumb">
             <li><a href="#">Главная</a></li>
             <li><a href="#">Соцобъекты</a></li>
             <li><a href="#">Роддомы</a></li>
@@ -817,7 +818,7 @@
                 <li><a class="pagination_link" href="#">2</a></li>
                 <li><a class="pagination_link" href="#">3</a></li>
                 <li><a class="pagination_link" href="#">4</a></li>
-                <li><a class="pagination_link" href="#">...</a></li>
+                <li class="pagination_link__disable"><i>...</i></li>
                 <li><a class="pagination_link" href="#">43</a></li>
                 <li>
                   <a class="pagination_link" href="#" aria-label="Next">
@@ -836,7 +837,7 @@
             Другие роддомы в городе Москва  
           </h2>
           <div class="row">
-            <div class="col-lg-4 col-xs-6 other_hospitals_item">
+            <div class="col-lg-4 col-md-4 col-xs-12 other_hospitals_item">
               <div>
                 <img src="img/hospital.jpg" alt="book-pic" class="hospital_img">
                 <div class="discription">
@@ -866,7 +867,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-xs-6 other_hospitals_item">
+            <div class="col-lg-4 col-md-4 col-xs-12 other_hospitals_item">
               <div>
                 <img src="img/hospital.jpg" alt="book-pic" class="hospital_img">
                 <div class="discription">
@@ -896,7 +897,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-xs-6 other_hospitals_item">
+            <div class="col-lg-4 col-md-4 col-xs-12 other_hospitals_item">
               <div>
                 <img src="img/hospital.jpg" alt="book-pic" class="hospital_img">
                 <div class="discription">
@@ -1203,7 +1204,6 @@
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="js/jquery-3.1.1.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <!-- <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script> -->
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.nice-select.js"></script>
   <script type="text/javascript" src="js/jquery.ui.core.min.js"></script>
