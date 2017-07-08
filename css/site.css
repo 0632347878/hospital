@@ -4945,10 +4945,12 @@ label[for="my_check2"] {
     display: inline-block;
     
 }
-.media_page .stars, .album_selected_reviews .stars {
+.media_page .stars, .album_selected_reviews .stars,
+.stars {
     width: 140px;
 }
-.media_page .stars .star, .album_selected_reviews .stars .star {
+.media_page .stars .star, .album_selected_reviews .stars .star,
+.stars .star {
     height: 25px;
     width: 23px;
     margin-right: 5px;
@@ -4956,7 +4958,8 @@ label[for="my_check2"] {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-.media_page .stars .star__disable, .album_selected_reviews .stars .star__disable{
+.media_page .stars .star__disable, .album_selected_reviews .stars .star__disable,
+.stars .star__disable {
     background-image: url(../images/star-disable.png) !important;
 }
 .media_page .intresting {
@@ -5030,4 +5033,18 @@ label[for="my_check2"] {
 .album_selected_reviews .rewiev_pagination, 
 .album_selected_reviews .rewiev_pagination .pagination {
     margin-bottom: 0;
+}
+.media_other .stars {
+    width: 133px;
+}
+.media_other .stars .star {    
+    margin-right: 3px;
+}
+.media_other .show_more {
+    margin-bottom: 0;
+}
+.sidebar__mams .discription_text {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
